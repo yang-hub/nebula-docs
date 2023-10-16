@@ -808,11 +808,11 @@ nav:
   - Licensing: 
       - Licensing overview: 9.about-license/1.license-overview.md
       - License management suites: 
-      - Suite overview: 9.about-license/2.license-management-suite/1.suite-overview.md
-      - License Center: 9.about-license/2.license-management-suite/2.license-center.md
-      - License Manager: 9.about-license/2.license-management-suite/3.license-manager.md
-      - Purchase licenses: 9.about-license/3.purchase-license.md
-      - Manage licenses: 9.about-license/4.manage-license.md
+        - Suite overview: 9.about-license/2.license-management-suite/1.suite-overview.md
+        - License Center: 9.about-license/2.license-management-suite/2.license-center.md
+        - License Manager: 9.about-license/2.license-management-suite/3.license-manager.md
+        - Purchase licenses: 9.about-license/3.purchase-license.md
+        - Manage licenses: 9.about-license/4.manage-license.md
   - Quick start:
 #      - Deploy NebulaGraph using Docker: 2.quick-start/1.quick-start-workflow.md
 #      - Deploy NebulaGraph on-premise: 
