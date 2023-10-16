@@ -28,6 +28,11 @@ jobs:
 
       - name: Git Config
         run: git config user.name ChrisChen2023 && git config user.email chris.chen@vesoft.com
+
+      - name: save tmp file
+        run: |
+          cp -f *versions.json /tmp/ 
+          ls /tmp/ -ltr  
           
       - name: Mike Deploy
         run: |
@@ -48,7 +53,7 @@ jobs:
         run: |
           import yaml, json
           new_content = {"version": "${{ env.ACTIONTEST }}", "title": "${{ env.ACTIONTEST }}", "aliases": []}
-          filename = "enterprise_versions.json"   
+          filename = "/tmp/enterprise_versions.json"   
           with open(filename, 'r') as infile:
               json_data = json.load(infile)
           found = False
