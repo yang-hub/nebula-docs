@@ -1,0 +1,74 @@
+name: Publish English docs via GitHub Pages
+env:
+  ACTIONTEST: master
+on:
+  workflow_call:
+  push:
+    branches:
+    # Remember to add v before the following version number unless the version is master.
+      - master
+    paths:
+      - 'docs-2.0-en/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # fetch all commits/branches for gitversion
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name : prepare
+        run: sh ./prepare.sh
+
+      - name: Git Config
+        run: git config user.name ChrisChen2023 && git config user.email chris.chen@vesoft.com
+          
+      - name: Mike Deploy
+        run: |
+          python ./scripts/render_english_only.py
+          python ./scripts/conditional_pdf.py
+          git fetch origin gh-pages --depth=1 # fix mike's CI update
+          mike list
+          mike deploy ${{ env.ACTIONTEST }}  -p --rebase
+          mike set-default ${{ env.ACTIONTEST }} -p --rebase
+          mike list
+
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.DEPLOY_TOKEN }}
+      #     publish_dir: ./site
+
+      - name: Compress
+        run: |
+          tar -vczf ent-docs.tar.gz ${{ env.ACTIONTEST }} versions.json *.html
+
+      - name: Transfer
+        uses: appleboy/scp-action@master
+        with:
+          host: 192.168.8.33
+          username: vesoft
+          password: ${{ secrets.ENSITE_PASSWORD }}
+          port: 22
+          source: ent-docs.tar.gz
+          target: /var/www/
+
+      - name: UnCompress
+        uses: appleboy/ssh-action@master
+        with:
+          host: 192.168.8.33
+          username: vesoft
+          password: ${{ secrets.ENSITE_PASSWORD }}
+          port: 22
+          script: |
+            mkdir -p /usr/www/ent-docs/
+            tar -xzf /usr/www/ent-docs.tar.gz -C /usr/www/ent-docs/
+            mkdir -p /usr/www/ent-docs/site/pdf/
+            #cp -f /usr/www/ent-docs/${{ env.ACTIONTEST }}/pdf/yueshu-cn.pdf /usr/www/ent-docs/site/pdf/NebulaGraph-book.pdf
+      
