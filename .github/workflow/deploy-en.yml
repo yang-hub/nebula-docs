@@ -45,6 +45,12 @@ jobs:
       #     github_token: ${{ secrets.DEPLOY_TOKEN }}
       #     publish_dir: ./site
 
+      - name: show English git branch
+        run: |
+          git branch
+          git checkout .
+          git checkout gh-pages
+          
       - name: Compress
         run: |
           tar -vczf ent-docs.tar.gz ${{ env.ACTIONTEST }} versions.json *.html
