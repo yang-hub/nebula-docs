@@ -360,13 +360,13 @@ nav:
         - Storage 服务: 1.introduction/3.nebula-graph-architecture/4.storage-service.md
   - 悦数 License: 
     - License 使用指南: 9.about-license/1.license-overview.md
-    - License 管理套件: 
-     - 套件概述: 9.about-license/2.license-management-suite/1.suite-overview.md
-     - 许可证中心（LC）: 9.about-license/2.license-management-suite/2.license-center.md
-    - 购买 License: 9.about-license/3.purchase-license.md
-    - 获取和加载 License: 9.about-license/4.generate-and-load-license-key.md
+#    - License 管理套件: 
+#     - 套件概述: 9.about-license/2.license-management-suite/1.suite-overview.md
+#     - 许可证中心（LC）: 9.about-license/2.license-management-suite/2.license-center.md
+#    - 购买 License: 9.about-license/3.purchase-license.md
+#    - 获取和加载 License: 9.about-license/4.generate-and-load-license-key.md
     - License 管理服务 LM: 9.about-license/2.license-management-suite/3.license-manager.md
-    - 管理 License: 9.about-license/5.manage-license.md
+#    - 管理 License: 9.about-license/5.manage-license.md
   - 快速入门:
     - 从云开始: 
       - 步骤 1：创建云服务实例: 2.quick-start/2.quick-start-on-cloud/1.create-instance-on-cloud.md
@@ -789,7 +789,6 @@ nav:
 # zh.end
 
 # en.begin
-
 nav:
   - About: README.md
   - Introduction:
@@ -814,7 +813,6 @@ nav:
       - License Manager: 9.about-license/2.license-management-suite/3.license-manager.md
       - Purchase licenses: 9.about-license/3.purchase-license.md
       - Manage licenses: 9.about-license/4.manage-license.md
-  #ent 
   - Quick start:
 #      - Deploy NebulaGraph using Docker: 2.quick-start/1.quick-start-workflow.md
 #      - Deploy NebulaGraph on-premise: 
