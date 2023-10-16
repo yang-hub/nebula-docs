@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy-zh:
-  
+
     uses: ./.github/workflows/deploy-zh.yml@master
 
   deploy-en:
