@@ -4,6 +4,9 @@ env:
   ACTIONTEST: master
 on:
   workflow_call:
+    secrets:
+      ZHSITE_PASSWORD:
+        required: true
   push:
     branches:
       - master
