@@ -93,10 +93,10 @@ jobs:
           password: ${{ secrets.ZHSITE_PASSWORD }}
           port: 404
           script: |
-            mkdir -p /usr/www/ent-docs/
-            tar -xzf /usr/www/ent-docs.tar.gz -C /usr/www/ent-docs/
-            mkdir -p /usr/www/ent-docs/site/pdf/
-            #cp -f /usr/www/ent-docs/${{ env.ACTIONTEST }}/pdf/yueshu-cn.pdf /usr/www/ent-docs/site/pdf/NebulaGraph-book.pdf
+            mkdir -p /var/www/ent-docs/
+            tar -xzf /var/www/ent-docs.tar.gz -C /var/www/ent-docs/
+            mkdir -p /var/www/ent-docs/site/pdf/
+            #cp -f /var/www/ent-docs/${{ env.ACTIONTEST }}/pdf/yueshu-cn.pdf /var/www/ent-docs/site/pdf/NebulaGraph-book.pdf
 
       - name: Upload to OSS
         uses: vesoft-inc/upload-oss@master
