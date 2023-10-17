@@ -58,20 +58,20 @@ jobs:
       - name: Transfer
         uses: appleboy/scp-action@master
         with:
-          host: 192.168.8.33
-          username: vesoft
+          host: 20.163.77.63
+          username: azureuser
           password: ${{ secrets.ENSITE_PASSWORD }}
-          port: 22
+          port: 404
           source: ent-docs.tar.gz
           target: /var/www/
 
       - name: UnCompress
         uses: appleboy/ssh-action@master
         with:
-          host: 192.168.8.33
-          username: vesoft
+          host: 20.163.77.63
+          username: azureuser
           password: ${{ secrets.ENSITE_PASSWORD }}
-          port: 22
+          port: 404
           script: |
             mkdir -p /usr/www/ent-docs/
             tar -xzf /usr/www/ent-docs.tar.gz -C /usr/www/ent-docs/
