@@ -1239,8 +1239,6 @@ nav:
       - History timeline: 20.appendix/history.md
       - Error code: 20.appendix/error-code.md
 
-  - PDF: ./pdf/NebulaGraph_Enterprise.pdf
-
 # nav.pdf.begin
   - PDF: ./pdf/NebulaGraph_Enterprise.pdf
 # nav.pdf.end

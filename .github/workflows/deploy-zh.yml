@@ -96,7 +96,7 @@ jobs:
             mkdir -p /var/www/ent-docs/
             tar -xzf /var/www/ent-docs.tar.gz -C /var/www/ent-docs/
             mkdir -p /var/www/ent-docs/site/pdf/
-            #cp -f /var/www/ent-docs/${{ env.ACTIONTEST }}/pdf/yueshu-cn.pdf /var/www/ent-docs/site/pdf/NebulaGraph-book.pdf
+            cp -f /var/www/ent-docs/${{ env.ACTIONTEST }}/pdf/yueshu-cn.pdf /var/www/ent-docs/site/pdf/yueshu-cn.pdf
 
       - name: Upload to OSS
         uses: vesoft-inc/upload-oss@master
