@@ -180,11 +180,11 @@ plugins:
       copyright: Copyright &copy; Yueshu Graph Technology -  All rights reserved.
 # en.begin
       cover_logo: 'https://cloud-cdn.nebula-graph.com.cn/nebula-for-pdf.png'
-      output_path: pdf/yueshu-cn.pdf
+      output_path: pdf/NebulaGraph_Enterprise.pdf
 # en.end
 # zh.begin
       cover_logo: 'https://docs-cdn.nebula-graph.com.cn/figures/yueshu_favicon_230515.png'
-      output_path: pdf/NebulaGraph_Enterprise.pdf
+      output_path: pdf/yueshu-cn.pdf
       pdf_stylesheets:
         - stylesheets/pdf.css
 # zh.end
