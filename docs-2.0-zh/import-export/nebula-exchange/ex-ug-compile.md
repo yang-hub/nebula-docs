@@ -12,9 +12,9 @@
 
 社区版 Exchange 的 JAR 文件还可以通过编译源代码获取。下文介绍如何编译 Exchange 源代码。
 
-!!! enterpriseonly
+!!! note
 
-    企业版 Exchange 仅能在{{nebula.name}}企业版套餐中获取。
+    企业版 Exchange 仅能在{{nebula.name}}套餐中获取。
 
 ### 前提条件
 

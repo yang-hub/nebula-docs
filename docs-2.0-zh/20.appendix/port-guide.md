@@ -11,7 +11,7 @@
 | 5    | {{nebula.name}}            | TCP  | 9560                          | Meta 服务之间的 Raft 通信端口。                              |
 | 6    | {{nebula.name}}            | TCP  | 19559                         | Meta 服务的 HTTP 端口。                                      |
 | 7    | {{nebula.name}}            | TCP  | 19560                         | Meta 服务的 HTTP/2 端口。（3.x 后已弃用该端口）                     |
-| 8    | {{nebula.name}}            | TCP  | 9777                          | Storage 服务中，Drainer 服务占用端口（仅在企业版集群中暴露）。 |
+| 8    | {{nebula.name}}            | TCP  | 9777                          | Storage 服务中，Drainer 服务占用端口。 |
 | 9    | {{nebula.name}}            | TCP  | 9778                          | Storage 服务中，Admin 服务占用端口。                         |
 | 10   | {{nebula.name}}            | TCP  | 9779                          | Storage 服务的 RPC 守护进程监听端口。（通常由 Graph 服务发起请求，用于执行数据存储相关的操作，例如读取、写入或删除数据。） |
 | 11   | {{nebula.name}}            | TCP  | 9780                          | Storage 服务之间的 Raft 通信端口。                           |
@@ -27,8 +27,7 @@
 | 21   | {{dashboard_ent.name}} | TCP  | 9200                          | Nebula Stats Exporter 依赖服务端口。收集集群的性能指标，包括服务 IP 地址、版本和监控指标（例如查询数量、查询延迟、心跳延迟 等）。 |
 | 22   | {{dashboard_ent.name}} | TCP  | 9100                          | Node Exporter 依赖服务端口。收集集群中机器的资源信息，包括 CPU、内存、负载、磁盘和流量。 |
 | 23   | {{dashboard_ent.name}} | TCP  | 9091                          | Prometheus 服务的端口。存储监控数据的时间序列数据库。        |
-| 24   | NebulaGraph Dashboard | TCP  | 7003                          | Dashboard 社区版 提供 Web 服务占用端口。                     |
-| 25   | {{dashboard_ent.name}} | TCP  | 7005                          | {{dashboard_ent.name}}提供 Web 服务占用端口。                     |
-| 26   | {{dashboard_ent.name}} | TCP  | 9093                          | Alertmanager 服务的端口。接收 Prometheus 告警，发送告警通知给{{dashboard_ent.name}}。 |
-| 27   | {{explorer.name}}  | TCP  | 7002                          | {{explorer.name}}提供的 Web 服务占用端口。                           |
-| 28   | License Manager  | TCP  | 9119                          | License Manager (LM) 服务的端口。LM 服务用于管理 License（仅在企业版集群中使用）。| 
+| 24   | {{dashboard_ent.name}} | TCP  | 7005                          | {{dashboard_ent.name}}提供 Web 服务占用端口。                     |
+| 25   | {{dashboard_ent.name}} | TCP  | 9093                          | Alertmanager 服务的端口。接收 Prometheus 告警，发送告警通知给{{dashboard_ent.name}}。 |
+| 26   | {{explorer.name}}  | TCP  | 7002                          | {{explorer.name}}提供的 Web 服务占用端口。                           |
+| 27   | License Manager  | TCP  | 9119                          | License Manager (LM) 服务的端口。LM 服务用于管理 License。| 

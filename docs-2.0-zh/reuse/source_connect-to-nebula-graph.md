@@ -4,13 +4,13 @@
 
 !!! caution
 
-    首次连接到{{nebula.name}}后，必须先[注册 Storage 服务](https://docs.nebula-graph.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.1add-storage-hosts/)，才能正常查询数据。
+    首次连接到{{nebula.name}}后，必须先[注册 Storage 服务](https://docs.yueshu.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.1add-storage-hosts/)，才能正常查询数据。
 
-{{nebula.name}}支持多种类型的客户端，包括命令行客户端、可视化界面客户端和流行编程语言客户端。详情参见[客户端列表](https://docs.nebula-graph.com.cn/{{nebula.release}}/14.client/1.nebula-client/)。
+{{nebula.name}}支持多种类型的客户端，包括命令行客户端、可视化界面客户端和流行编程语言客户端。详情参见[客户端列表](https://docs.yueshu.com.cn/{{nebula.release}}/14.client/1.nebula-client/)。
 
 ## 前提条件
 
-- {{nebula.name}}服务已[启动](https://docs.nebula-graph.com.cn/{{nebula.release}}/4.deployment-and-installation/manage-service/)。
+- {{nebula.name}}服务已[启动](https://docs.yueshu.com.cn/{{nebula.release}}/4.deployment-and-installation/manage-service/)。
 
 - 运行 NebulaGraph Console 的机器和运行{{nebula.name}}的服务器网络互通。
 

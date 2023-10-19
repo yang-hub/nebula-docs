@@ -2,7 +2,7 @@
 
 Exchange 支持将{{nebula.name}}中的数据导出到 CSV 文件或另一个图空间（不同{{nebula.name}}集群也支持）中。本文介绍具体的操作步骤。
 
-!!! enterpriseonly
+!!! note
 
     仅企业版 Exchange 支持导出{{nebula.name}}数据。
 
@@ -44,7 +44,7 @@ CentOS 7.9.2009
 
 ## 操作步骤
 
-1. 从 [{{nebula.name}}企业版套餐](https://nebula-graph.com.cn/pricing/) 中获取企业版 Exchange 的 JAR 文件。
+1. 从 [{{nebula.name}}套餐](https://nebula-graph.com.cn/pricing/) 中获取企业版 Exchange 的 JAR 文件。
 
 2. 修改配置文件。
   

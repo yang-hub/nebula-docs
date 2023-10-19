@@ -2,40 +2,21 @@
 
 !!! Note
     
-    本文档更新时间{{ now().year }}-{{ now().month }}-{{ now().day }}，GitHub commit [{{ git.short_commit }}](https://github.com/vesoft-inc/nebula-docs/commits/v{{nebula.release}})。该版本主色系为"桑色"，色号为 #55295B。
-
-<!--
-!!! caution
-
-    该版本文档仅包括 {{nebula.name}} {{ nebula.release }} 社区版内容和对应版本的周边工具内容。{{nebula.name}} {{ nebula.release }} 未发布企业版（[企业版发布周期通常为 6 个月](20.appendix/6.eco-tool-version.md)）。详情查看[版本发布说明](20.appendix/release-notes/nebula-comm-release-note.md)。
-
-
-!!! Compatibility
-
-    在 NebulaGraph 3.2 的版本中，允许存在无 Tag 的点，但从 NebulaGraph 3.3.0 开始默认不支持无 Tag 的点。
+    本文档更新时间{{ now().year }}-{{ now().month }}-{{ now().day }}，GitHub commit [{{ git.short_commit }}](https://github.com/vesoft-inc/nebula-docs/commits/v{{nebula.release}})。
     
 NebulaGraph 是一款开源的、分布式的、易扩展的原生图数据库，能够承载数千亿个点和数万亿条边的超大规模数据集，并且提供毫秒级查询。
 
 
-<a href="https://www.bilibili.com/video/BV12R4y1e7U7"><img src="https://docs-cdn.nebula-graph.com.cn/figures/picture1.png" alt="3.4.0发布"></a>
--->
-
 ## 快速开始
 
-
-
-* [快速开始](2.quick-start/3.quick-start-on-premise/2.install-nebula-graph.md)
-
-* [部署要求](4.deployment-and-installation/1.resource-preparations.md)
-* [nGQL 命令汇总](2.quick-start/6.cheatsheet-for-ngql-command.md)
-* [FAQ](20.appendix/0.FAQ.md)
-* [生态工具](20.appendix/6.eco-tool-version.md)
-* [Academy 课程](https://academic.nebula-graph.io/intro/)
+- [快速开始](2.quick-start/3.quick-start-on-premise/2.install-nebula-graph.md)
+- [部署要求](4.deployment-and-installation/1.resource-preparations.md)
+- [nGQL 命令汇总](2.quick-start/6.cheatsheet-for-ngql-command.md)
+- [FAQ](20.appendix/0.FAQ.md)
+- [生态工具](20.appendix/6.eco-tool-version.md)
+- [Academy 课程](https://academic.nebula-graph.io/intro/)
 
 ## 最新发布
-
-
-
 
 - [{{nebula.name}} {{nebula.release}}](20.appendix/release-notes/nebula-ent-release-note.md)
 - [{{dashboard_ent.name}}](20.appendix/release-notes/dashboard-ent-release-note.md)
@@ -45,8 +26,9 @@ NebulaGraph 是一款开源的、分布式的、易扩展的原生图数据库�
 
 ## 其他资料
 
+<!-- 
 - [学习路径](https://academic.nebula-graph.io/?lang=ZH_CN)
-   
+-->   
    
 - [主页](https://yueshu.com.cn/)
    
@@ -83,10 +65,6 @@ NebulaGraph 是一款开源的、分布式的、易扩展的原生图数据库�
 !!! compatibility
 
     nGQL 与 openCypher 的兼容性或 nGQL 当前版本与历史版本的兼容性。
-
-!!! enterpriseonly
-
-    描述社区版和企业版的差异。
     
 ## 修改文档中的错误
  

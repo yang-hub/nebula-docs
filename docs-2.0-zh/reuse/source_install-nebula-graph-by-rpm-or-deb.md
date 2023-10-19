@@ -2,14 +2,14 @@ RPM 和 DEB 是 Linux 系统下常见的两种安装包格式，本文介绍如�
 
 !!! note
 
-    部署{{nebula.name}}集群的方式参见[使用 RPM/DEB 包部署集群](https://docs.nebula-graph.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.1add-storage-hosts/)。<!--这里用外链。-->
+    部署{{nebula.name}}集群的方式参见[使用 RPM/DEB 包部署集群](https://docs.yueshu.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.1add-storage-hosts/)。<!--这里用外链。-->
 
 
 ## 前提条件
 
 - 安装`wget`工具。
 
-- 已[在 LM 中加载 License Key](https://ent-docs.nebula-graph.com.cn/{{nebula.release}}/9.about-license/2.license-management-suite/3.license-manager/)。
+- 已[在 LM 中加载 License Key](https://docs.yueshu.com.cn/{{nebula.release}}/9.about-license/2.license-management-suite/3.license-manager/)。
 
 
 ## 下载安装包
@@ -25,7 +25,7 @@ RPM 和 DEB 是 Linux 系统下常见的两种安装包格式，本文介绍如�
 
     - 当前仅支持在 Linux 系统下安装{{nebula.name}}，且仅支持 CentOS 7.x、CentOS 8.x、Ubuntu 16.04、Ubuntu 18.04、Ubuntu 20.04 操作系统。
   
-    - 如果用户使用的是国产化的 Linux 操作系统，请[安装企业版{{nebula.name}}](https://yueshu.com.cn/contact)。  
+    - 如果用户使用的是国产化的 Linux 操作系统，请[安装{{nebula.name}}](https://yueshu.com.cn/contact)。  
 
 
 
@@ -80,5 +80,5 @@ RPM 和 DEB 是 Linux 系统下常见的两种安装包格式，本文介绍如�
 
 ## 后续操作
 
-- [启动{{nebula.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/5.start-stop-service/)<!--这里用外链。-->
-- [连接{{nebula.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.connect-to-nebula-graph/)<!--这里用外链。-->
+- [启动{{nebula.name}}](https://docs.yueshu.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/5.start-stop-service/)<!--这里用外链。-->
+- [连接{{nebula.name}}](https://docs.yueshu.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.connect-to-nebula-graph/)<!--这里用外链。-->

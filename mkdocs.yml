@@ -731,7 +731,7 @@ nav:
         - 悦数图数据库: 20.appendix/release-notes/nebula-ent-release-note.md
         - 悦数运维监控: 20.appendix/release-notes/dashboard-ent-release-note.md
         - 悦数图探索: 20.appendix/release-notes/explorer-release-note.md
-      - 学习路径: 20.appendix/learning-path.md
+#      - 学习路径: 20.appendix/learning-path.md
       - 产品端口全集: 20.appendix/port-guide.md
       - 生态工具概览: 20.appendix/6.eco-tool-version.md
       - 错误码: 20.appendix/error-code.md

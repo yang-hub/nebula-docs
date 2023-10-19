@@ -226,7 +226,7 @@
 
 ### {{nebula.name}}源特有参数
 
-!!! enterpriseonly
+!!! note
 
     {{nebula.name}}源特有参数用于导出{{nebula.name}}数据，仅企业版 Exchange 支持。
 

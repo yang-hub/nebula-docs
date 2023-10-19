@@ -44,15 +44,15 @@ $ sudo /usr/local/nebula/scripts/nebula.service
 
 ## 使用 systemd 管理服务
 
-为方便使用，{{nebula.name}}企业版支持用 systemd 管理服务，通过`systemctl`启动、停止、重启和查看服务。
+为方便使用，{{nebula.name}}支持用 systemd 管理服务，通过`systemctl`启动、停止、重启和查看服务。
 
 !!! note
 
-    - 安装{{nebula.name}}企业版后，systemd 所需的`.service`文件在安装目录的`etc/unit`目录内，使用 RPM/DEB 包安装的 NebulaGraph，会自动将这些`.service`文件放入`/usr/lib/systemd/system`目录内，并且`ExecStart`也会根据指定的{{nebula.name}}安装路径进行生成，因此可以直接使用`systemctl`命令。
+    - 安装{{nebula.name}}后，systemd 所需的`.service`文件在安装目录的`etc/unit`目录内，使用 RPM/DEB 包安装的 NebulaGraph，会自动将这些`.service`文件放入`/usr/lib/systemd/system`目录内，并且`ExecStart`也会根据指定的{{nebula.name}}安装路径进行生成，因此可以直接使用`systemctl`命令。
 
     - 对于使用{{dashboard_ent.name}}安装的{{nebula.name}}，不支持使用`systemctl`管理服务。
     
-    - 对于其他方式安装的企业版 NebulaGraph，需要用户手动将`.service`文件移动到`/usr/lib/systemd/system`目录内，并修改`.service`文件内的`ExecStart`的文件路径，才可以正常使用`systemctl`命令。
+    - 对于其他方式安装的{{nebula.name}}，需要用户手动将`.service`文件移动到`/usr/lib/systemd/system`目录内，并修改`.service`文件内的`ExecStart`的文件路径，才可以正常使用`systemctl`命令。
     
 ### 语法
 
@@ -148,7 +148,7 @@ $ sudo /usr/local/nebula/scripts/nebula.service status all
 
   !!! note
 
-        正常启动{{nebula.name}}后，`nebula-storaged`进程的端口显示红色。这是因为`nebula-storaged`在启动流程中会等待`nebula-metad`添加当前 Storage 服务，当前 Storage 服务收到 Ready 信号后才会正式启动服务。从 3.0.0 版本开始，在配置文件中添加的 Storage 节点无法直接读写，配置文件的作用仅仅是将 Storage 节点注册至 Meta 服务中。必须使用`ADD HOSTS`命令后，才能正常读写 Storage 节点。更多信息，参见[管理 Storage 主机](https://docs.nebula-graph.com.cn/{{nebula.release}}/4.deployment-and-installation/manage-storage-host/)。
+        正常启动{{nebula.name}}后，`nebula-storaged`进程的端口显示红色。这是因为`nebula-storaged`在启动流程中会等待`nebula-metad`添加当前 Storage 服务，当前 Storage 服务收到 Ready 信号后才会正式启动服务。从 3.0.0 版本开始，在配置文件中添加的 Storage 节点无法直接读写，配置文件的作用仅仅是将 Storage 节点注册至 Meta 服务中。必须使用`ADD HOSTS`命令后，才能正常读写 Storage 节点。更多信息，参见[管理 Storage 主机](https://docs.yueshu.com.cn/{{nebula.release}}/4.deployment-and-installation/manage-storage-host/)。
 
 
 - 如果返回类似如下结果，表示{{nebula.name}}服务异常，可以根据异常服务信息进一步排查，或者在 [{{nebula.name}}社区](https://discuss.nebula-graph.com.cn/)寻求帮助。
@@ -186,4 +186,4 @@ $ systemctl status nebula
 
 ## 下一步
 
-- [连接{{nebula.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.connect-to-nebula-graph/)<!--这里用外链。-->
+- [连接{{nebula.name}}](https://docs.yueshu.com.cn/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.connect-to-nebula-graph/)<!--这里用外链。-->
