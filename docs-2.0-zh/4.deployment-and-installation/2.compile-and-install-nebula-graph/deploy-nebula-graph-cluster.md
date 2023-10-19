@@ -20,9 +20,9 @@
 
 - 准备 5 台用于部署集群的机器。
 - 在集群中通过 NTP 服务同步时间。
-{{ ent.ent_begin }}
+
 - 已[在 LM 中加载 License Key](../../9.about-license/2.license-management-suite/3.license-manager.md)。
-{{ ent.ent_end }}
+
 
 ## 手动部署流程
 
@@ -32,9 +32,7 @@
 
 - [使用 RPM 或 DEB 包安装{{nebula.name}}](2.install-nebula-graph-by-rpm-or-deb.md)
 
-{{ comm.comm_begin }}
-- [使用源码安装{{nebula.name}}](1.install-nebula-graph-by-compiling-the-source-code.md)
-{{ comm.comm_end }}
+
 
 ### 修改配置文件
 
@@ -62,11 +60,11 @@
 
     - [Storage 服务配置](../../5.configurations-and-logs/1.configurations/4.storage-config.md)
 
-{{ ent.ent_begin }}
+
 !!! note
 
     在所有的 Meta 服务配置文件中，需要设置`license_manager_url`的值为 LM 所在的主机 IP 和端口号`9119`，例如`192.168.8.100:9119`。
-{{ ent.ent_end }}
+
 
 - 机器 A 配置
 
@@ -270,13 +268,13 @@
     --port=9779
     ```
 
-{{ent.ent_begin}}
+
 ### (可选) 配置 Zone
 
 Zone 是 Storage 节点的逻辑机架。用户可以通过配置 Zone 并将指定 Storage 节点加入到 Zone 中，同时配置 Graph 服务定向访问指定 Zone，来实现资源隔离和数据的定向访问，从而减少流量消耗以节约成本。
 
 详情请参见[Zone](../../4.deployment-and-installation/5.zone.md)。
-{{ent.ent_end}}
+
 
 ### 启动集群
 

@@ -22,7 +22,10 @@ NebulaGraph 是一款开源的、分布式的、易扩展的原生图数据库�
 
 ## 快速开始
 
-* [快速开始](2.quick-start/1.quick-start-overview.md)
+
+
+* [快速开始](2.quick-start/3.quick-start-on-premise/2.install-nebula-graph.md)
+
 * [部署要求](4.deployment-and-installation/1.resource-preparations.md)
 * [nGQL 命令汇总](2.quick-start/6.cheatsheet-for-ngql-command.md)
 * [FAQ](20.appendix/0.FAQ.md)
@@ -31,30 +34,22 @@ NebulaGraph 是一款开源的、分布式的、易扩展的原生图数据库�
 
 ## 最新发布
 
-{{comm.comm_begin}}
-- [{{nebula.name}} {{nebula.release}}](20.appendix/release-notes/nebula-comm-release-note.md)
-{{comm.comm_end}}
 
-{{ent.ent_begin}}
+
+
 - [{{nebula.name}} {{nebula.release}}](20.appendix/release-notes/nebula-ent-release-note.md)
 - [{{dashboard_ent.name}}](20.appendix/release-notes/dashboard-ent-release-note.md)
 - [{{explorer.name}}](20.appendix/release-notes/explorer-release-note.md)
-{{ent.ent_end}}
+
 
 
 ## 其他资料
 
 - [学习路径](https://academic.nebula-graph.io/?lang=ZH_CN)
-   {{ comm.comm_begin }}
-- [引用 NebulaGraph](https://arxiv.org/abs/2206.07278)
-- [论坛](https://discuss.nebula-graph.com.cn/)
-- [主页](https://nebula-graph.com.cn/)
-- [系列视频](https://space.bilibili.com/472621355)
-- [英文文档](https://docs.nebula-graph.io/)
-   {{ comm.comm_end }}
-   {{ ent.ent_begin }}
+   
+   
 - [主页](https://yueshu.com.cn/)
-   {{ ent.ent_end }}
+   
 
 
 ## 图例说明

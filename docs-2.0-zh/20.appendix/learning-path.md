@@ -2,13 +2,7 @@
 
 本文介绍{{nebula.name}}学习路径，用户可以通过路径中的文档及视频由浅入深地学习{{nebula.name}}。
 
-{{comm.comm_begin}}
- ![learning path](https://docs-cdn.nebula-graph.com.cn/figures/learning-path.png)
 
-完成{{nebula.name}}学习后，参加[技能认证](https://www.bilibili.com/video/BV1Ga411x7RE)考试还可以获取认证证书。详情参见下文**通过 CI/CP 考试**。
-
-<iframe src="//player.bilibili.com/player.html?aid=215181639&bvid=BV1Ga411x7RE&cid=752738115&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720px" height="480px"> </iframe>
-{{comm.comm_end}}
 
 
 ## 1. 关于{{nebula.name}}
@@ -144,13 +138,13 @@
   | ------------------------------------------------------------ |
   |[创建快照](https://docs.nebula-graph.com.cn/{{nebula.release}}/backup-and-restore/3.manage-snapshot/#_5)|
 
- {{ent.ent_begin}}
+ 
 - 资源隔离
 
   | 文档 |
   | ------------------------------------------------------------ |
   |[Zone](../4.deployment-and-installation/5.zone.md)|
-  {{ent.ent_end}}
+  
 
 - SSL 加密
 
@@ -199,17 +193,13 @@
 
 - 备份与恢复
 
-  {{ comm.comm_begin }}
-  | 文档                    |     视频                               |
-  | ------------------------|------------------------------------ |
-  |[Nebula BR](https://docs.nebula-graph.com.cn/{{nebula.release}}/backup-and-restore/nebula-br/1.what-is-br/)|[{{nebula.name}}容灾备份工具 nebula-br](https://www.bilibili.com/video/BV11L4y1g7rD)|
-  {{ comm.comm_end }}
+  
 
-  {{ ent.ent_begin }}
+  
   | 文档                    |     视频                               |
   | ------------------------|------------------------------------ |
   |[Nebula BR](https://docs.nebula-graph.com.cn/{{nebula.release}}/backup-and-restore/nebula-br-ent/1.br-ent-overview/)|-|
-  {{ ent.ent_end }}
+  
 
 - 性能测试
 
@@ -267,39 +257,4 @@
   | ------------------------------------------------------------ |
   | [常见问题 FAQ](https://docs.nebula-graph.com.cn/{{nebula.release}}/20.appendix/0.FAQ/#faq) |
 
-{{comm.comm_begin}}
-## 7. 实操作业
 
- 用户可以通过完成以下实操作业来检测是否玩转{{nebula.name}}。
-
-  | 作业内容                                                | 参考                                                         |
-  | ------------------------------------------------------- | ------------------------------------------------------------ |
-  | 编译内核                                                | [使用源码安装{{nebula.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/)                                                             |
-  | 部署可视化工具 Studio、Dashboard、Explorer             | [部署 Studio](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-studio/deploy-connect/st-ug-deploy/)、[部署 Dashboard](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-dashboard/2.deploy-dashboard/)、[部署{{explorer.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-explorer/deploy-connect/ex-ug-deploy/)                                                            |
-  | 使用 K6 压测{{nebula.name}}                            | [K6 在{{nebula.name}}上的压测实践](https://nebula-graph.com.cn/posts/practice-k6-at-nebula-graph/) |
-  | 导入 LDBC 数据                                          | [LDBC 数据导入及 nGQL 实践](https://mp.weixin.qq.com/s/tbLGuuX6vNzLIw6o8ZGKpw)                                                           |
-  | 查询 LDBC 数据（点查、K度邻居查询、路径查询、子图查询） | [LDBC](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://ldbcouncil.org/ldbc_snb_docs/ldbc-snb-specification.pdf) 和 [interactive-short-1.cypher](https://github.com/ldbc/ldbc_snb_interactive/blob/main/cypher/queries/interactive-short-1.cypher) |
-
-
-## 8. 通过 CI/CP 考试
-
-{{nebula.name}}提供2个不同等级的图数据库技能认证考试：
-
-- NebulaGraph Certified Insider (NGCI)：通过该考试证明用户对图数据库及{{nebula.name}}有基础的了解，是合格的{{nebula.name}}使用者。
-
-- NebulaGraph Certified Professional (NGCP)：通过该考试证明用户对图数据库及{{nebula.name}}有深入的了解，是{{nebula.name}}专业人士。
-
-考试用书[《分布式图数据库{{nebula.name}}完全指南》](https://docs.nebula-graph.com.cn/site/pdf/NebulaGraph-book.pdf)
-
-单击[{{nebula.name}}个人技能认证](https://discuss.nebula-graph.com.cn/t/topic/8728)查看考试说明及入口。
-
-
-## 参考文档
-
-- 有关{{nebula.name}}的原理介绍，参见[分布式图数库论文](https://arxiv.org/pdf/2206.07278.pdf)。
-
-- 有关 [{{nebula.name}}索引](../3.ngql-guide/14.native-index-statements/README.md)原理的介绍，参见[分布式图数库论文](https://arxiv.org/pdf/2206.07278.pdf)中的 2.4 节。
-
-- 有关{{nebula.name}}语言的概述，参见[分布式图数库论文](https://arxiv.org/pdf/2206.07278.pdf)中的 2.8 节。
-
-{{comm.comm_end}}

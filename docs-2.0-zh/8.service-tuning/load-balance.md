@@ -6,15 +6,9 @@
 
     `SUBMIT JOB BALANCE`命令通过创建和执行一组子任务来迁移数据和均衡分片分布，**禁止**停止集群中的任何机器或改变机器的 IP 地址，直到所有子任务完成，否则后续子任务会失败。
 
-{{ comm.comm_begin }}
-## 均衡分片分布
 
-!!! enterpriseonly
 
-    仅企业版支持均衡分片分布。
-{{ comm.comm_end }}
 
-{{ ent.ent_begin }}
 ## 均衡分片分布
 
 
@@ -127,7 +121,7 @@ nebula> SHOW HOSTS;
 
     该命令仅迁移分片，不会将 Storage 主机从集群中删除。删除 Storage 主机请参见[管理 Storage 主机](../4.deployment-and-installation/manage-storage-host.md)。
 
-{{ ent.ent_end }}
+
 
 ## 均衡 leader 分布
 

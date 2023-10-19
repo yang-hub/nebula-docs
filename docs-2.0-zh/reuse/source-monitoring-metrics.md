@@ -26,6 +26,7 @@
 | `query_latency_us`                               | 查询延迟时间。                            |
 | `slow_query_latency_us`                          | 慢查询延迟时间。                          |
 | `num_queries_hit_memory_watermark`               | 达到内存水位线的语句的数量。 |
+| `resp_part_completeness`                         | 部分成功的完整性。需要在 Graph 配置中设置`accept_partial_success`为`true`。|
 
 ### Meta
 
@@ -151,7 +152,7 @@
 | `num_rpc_sent_to_storaged`     |  Graphd 服务发给 Storaged 服务的 RPC 请求数量。                           |
 | `slow_query_latency_us`        |  慢查询延迟时间。                           |
 
-{{ent.ent_begin}}
+
 
 ### 单进程指标
 
@@ -166,4 +167,4 @@ Graph、Meta 和 Storage 服务都有自身的单进程指标。
 | `read_bytes_total`           |   读取的字节数量。                  |
 | `write_bytes_total`           |  写入的字节数量。                  |
 
-{{ent.ent_end}}
+

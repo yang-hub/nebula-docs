@@ -1,6 +1,10 @@
 # 连接数据库
 
-在成功启动{{explorer.name}}后，用户需要配置连接{{nebula.name}}。默认情况下可以直接连接数据库。为保证数据安全，还支持 OAuth2.0 认证，认证通过后才可以连接数据库。
+在成功启动{{explorer.name}}后，用户可以输入数据库信息连接数据库。默认情况下可以直接连接数据库。
+
+!!! note
+
+    为保证数据安全，{{explorer.name}}还支持 OAuth2.0 和 CAS 认证，认证通过后才可以连接数据库。详细配置参见[部署{{explorer.name}}](ex-ug-deploy.md)。
 
 ## 前提条件
 
@@ -13,37 +17,6 @@
 -{{nebula.name}}登录账号信息，包括用户名和密码。
 
 - 建议使用 Chrome 89 及以上的版本的 Chrome 浏览器，否则可能有兼容问题。
-
-## OAuth2.0 认证设置
-
-!!! caution
-
-    当前 OAuth2.0 认证设置为 Beta 功能，后续可能会有一定优化调整。
-
-!!! note
-
-    如果想直接连接数据库，请参见后文**连接数据库**部分。
-
-如果需要开启 OAuth2.0 认证，需要在{{explorer.name}}安装目录内修改配置文件。路径为`config/app-config.yaml`。
-
-OAuth 部分的配置说明如下。
-
-|参数|示例|说明|
-|:--|:--|:--|
-|`Enable`|`false`|是否开启 OAuth2.0 认证。|
-|`ClientID` | `4953xxx-mmnoge13xx.apps.googleusercontent.com`| 应用的 ClientId。  |
-|`ClientSecret` | `GOCxxx-xaytomFexxx` | 应用的 ClientSecret。 |
-|`RedirectURL` | `http://dashboard.vesoft-inc.com/login` |重定向到{{dashboard_ent.name}}的 URL。   |
-|`AuthURL` | `https://accounts.google.com/o/oauth2/auth` | 认证 URL。  |
-|`TokenURL` | `https://oauth2.googleapis.com/token`| 获取 access_token 的 URL。 |
-|`UserInfoURL` | `https://www.googleapis.com/oauth2/v1/userinfo`| 获取用户信息的 URL。 |
-|`UsernameKey` | `email`| 用户名字段。 |
-|`Organization` |  `vesoft company`       |  组织名称。             |
-|`TokenName`|`oauth_token`|Cookie 里的 Token 名称。|
-|`Scope`| `email`| OAuth 的权限范围。权限范围需要是厂商 OAuth2.0 平台配置的 scope 的子集，否则请求会失败。请求的 scope 需要能获取到`UsernameKey`的值。|
-|`AvatarKey`|`picture`|用户信息里的 Avatar Key。|
-
-配置完成后重启{{explorer.name}}服务，登录页面会先展示 OAuth 认证页面，通过后才能继续连接数据库。
 
 ## 连接数据库
 
