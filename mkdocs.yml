@@ -245,12 +245,12 @@ extra:
     branch: release-3.5
     tag: v3.5.0
   br_ent:
-    release: 3.5.1
-    tag: v3.5.1
+    release: 3.6.0
+    tag: v3.6.0
     name: Backup&Restore
   agent:
-    release: 3.4.0
-    tag: v3.4.0
+    release: 3.6.1
+    tag: v3.6.1
   cpp:
     release: 3.4.0
     branch: release-3.4
@@ -527,13 +527,13 @@ nav:
           - OpenLDAP 验证: 7.data-security/1.authentication/4.ldap.md
       - SSL 加密: 7.data-security/4.ssl.md
 
-#  - 备份与恢复:
-#      - 悦数备份&恢复:
-#        - 悦数备份&恢复概述: backup-and-restore/1.br-ent-overview.md
-#        - 安装: backup-and-restore/2.install-tools.md
-#        - 备份数据: backup-and-restore/3.backup-data.md
-#        - 恢复数据: backup-and-restore/4.restore-data.md
-#      - 快照: backup-and-restore/3.manage-snapshot.md
+ - 备份与恢复:
+     - 悦数备份&恢复:
+       - 悦数备份&恢复概述: backup-and-restore/1.br-ent-overview.md
+       - 安装: backup-and-restore/2.install-tools.md
+       - 备份数据: backup-and-restore/3.backup-data.md
+       - 恢复数据: backup-and-restore/4.restore-data.md
+     - 快照: backup-and-restore/3.manage-snapshot.md
 
   - 同步与迁移:
       - 负载均衡: synchronization-and-migration/2.balance-syntax.md
