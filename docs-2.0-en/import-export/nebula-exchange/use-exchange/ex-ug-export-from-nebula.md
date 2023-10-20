@@ -2,10 +2,6 @@
 
 The Exchange allows you to export data from NebulaGraph to a CSV file or another NebulaGraph space (supporting different NebulaGraph clusters). This topic describes the specific procedure.
 
-!!! enterpriseonly
-
-    Only Exchange Enterprise Edition supports exporting data from NebulaGraph.
-
 ## Preparation
 
 This example is completed on a virtual machine equipped with Linux. The hardware and software you need to prepare before exporting data are as follows.

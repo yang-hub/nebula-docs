@@ -32,10 +32,6 @@ In addition, if you need to use **Workflow** for complex graph computing, you ne
 
        If the HDFS port is unavailable, the connection timeout message may be displayed. -->
 
-!!! enterpriseonly
-
-    You can [apply online](https://nebula-graph.io/visualization-tools-free-trial) for Explorer free trial. NebulaGraph Explorer Enterprise Edition is available exclusively through our Enterprise Edition package and is not sold separately. [Contact us](https://www.nebula-graph.io/contact) for details.
-
 ## RPM-based deployment
 
 ### Installation

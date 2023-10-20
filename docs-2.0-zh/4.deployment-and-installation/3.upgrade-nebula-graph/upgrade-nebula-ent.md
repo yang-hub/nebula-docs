@@ -161,9 +161,10 @@
   LM 用于校验{{nebula.name}}的授权信息，详情参见[LM 配置](../../9.about-license/2.license-management-suite/3.license-manager.md)。
 
   !!! note
-        3.5.0及之后版本，企业版开启 License 校验，需要安装和配置 LM。
+
+        3.5.0及之后版本开启 License 校验，需要安装和配置 LM。
    
-6. 在{{nebula.name}} v{{nebula.release}} 的安装目录下，分别执行以下命令以升级 Storage 和 Meta 服务。<!-- 不需要事先创建`data`目录 -->
+1. 在{{nebula.name}} v{{nebula.release}} 的安装目录下，分别执行以下命令以升级 Storage 和 Meta 服务。<!-- 不需要事先创建`data`目录 -->
 
   - 升级 Storage 服务：
 

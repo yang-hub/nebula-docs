@@ -12,10 +12,6 @@
 
 社区版 Exchange 的 JAR 文件还可以通过编译源代码获取。下文介绍如何编译 Exchange 源代码。
 
-!!! note
-
-    企业版 Exchange 仅能在{{nebula.name}}套餐中获取。
-
 ### 前提条件
 
 - 安装 [Maven](https://maven.apache.org/download.cgi)。

@@ -2,10 +2,6 @@
 
 On the **Scale** page, you can **add node** and **import node in batches** quickly, and add **Graph services** and **Storage services** to the existing nodes.
 
-!!! enterpriseonly 
-
-    Only when the cluster you created or imported is the Enterprise Edition, this feature is available.
-
 ## Entry
 
 1. At the top navigation bar of the Dashboard Enterprise Edition page, click **Cluster Management**.

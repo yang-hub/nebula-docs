@@ -1,14 +1,8 @@
 NebulaGraph supports managing services with scripts. 
 
-{{ ent.ent_begin }}
-!!! enterpriseonly
-
-    You can also manage NebulaGraph with systemd in the NebulaGraph Enterprise Edition.
-
-!!! danger
+!!! caution
 
     The two methods are incompatible. It is recommended to use only one method in a cluster.
-{{ ent.ent_end }}
 
 ## Manage services with script
 
@@ -41,8 +35,6 @@ $ sudo /usr/local/nebula/scripts/nebula.service
 |`storaged`|Set the Storage Service as the target service.|
 |`all`|Set all the NebulaGraph services as the target services.|
 
-{{ ent.ent_begin }}
-
 ## Manage services with systemd
 
 For easy maintenance, NebulaGraph Enterprise Edition supports managing services with systemd. You can start, stop, restart, and check services with `systemctl` commands.
@@ -72,8 +64,6 @@ $ systemctl <start | stop | restart | status > <nebula | nebula-metad | nebula-g
 |`nebula-graphd`|Set the Graph Service as the target service.|
 |`nebula-storaged`|Set the Storage Service as the target service.|
 
-{{ ent.ent_end }}
-
 ## Start NebulaGraph
 
 Run the following command to start NebulaGraph.
@@ -88,7 +78,6 @@ $ sudo /usr/local/nebula/scripts/nebula.service start all
 [INFO] Done
 ```
 
-{{ ent.ent_begin }}
 Users can also run the following command:
 
 ```bash
@@ -100,7 +89,6 @@ If users want to automatically start NebulaGraph when the machine starts, run th
 ```bash
 $ systemctl enable nebula
 ```
-{{ ent.ent_begin }}
 
 ## Stop NebulaGraph
 
@@ -120,13 +108,11 @@ $ sudo /usr/local/nebula/scripts/nebula.service stop all
 [INFO] Done
 ```
 
-{{ ent.ent_begin }}
 Users can also run the following command:
 
 ```bash
 $ systemctl stop nebula
 ```
-{{ ent.ent_end }}
 
 ## Check the service status
 
@@ -139,7 +125,7 @@ $ sudo /usr/local/nebula/scripts/nebula.service status all
 * NebulaGraph is running normally if the following information is returned.
 
     ```bash
-    INFO] nebula-metad(33fd35e): Running as 29020, Listening on 9559
+    [INFO] nebula-metad(33fd35e): Running as 29020, Listening on 9559
     [INFO] nebula-graphd(33fd35e): Running as 29095, Listening on 9669
     [WARN] nebula-storaged after v3.0.0 will not start service until it is added to cluster.
     [WARN] See Manage Storage hosts:ADD HOSTS in https://docs.nebula-graph.io/
@@ -158,7 +144,6 @@ $ sudo /usr/local/nebula/scripts/nebula.service status all
     [INFO] nebula-storaged: Running as 25646, Listening on 9779
     ```
 
-{{ ent.ent_begin }}
 Users can also run the following command:
 
 ```bash
@@ -177,10 +162,9 @@ $ systemctl status nebula
 3月 28 04:13:24 xxxxxx systemd[1]: Started nebula.service.
 ...
 ```
-{{ ent.ent_end }}
 
 The NebulaGraph services consist of the Meta Service, Graph Service, and Storage Service. The configuration files for all three services are stored in the `/usr/local/nebula/etc/` directory by default. You can check the configuration files according to the returned result to troubleshoot problems.
 
 ## Next to do
 
-[Connect to NebulaGraph](https://docs.nebula-graph.io/{{nebula.release}}/2.quick-start/3.connect-to-nebula-graph/)<!--这里用外链。-->
+[Connect to NebulaGraph](https://ent-docs.nebula-graph.io/{{nebula.release}}/2.quick-start/3.connect-to-nebula-graph/)<!--这里用外链。-->

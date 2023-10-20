@@ -2,10 +2,6 @@
 
 The NebulaGraph audit logs store all operations received by graph service in categories, then provide the logs for users to track specific types of operations as needed.
 
-!!! enterpriseonly
-
-    Only available for the NebulaGraph Enterprise Edition.
-
 ## Log categories
 
 |Category|Statement|Description|

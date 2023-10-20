@@ -21,6 +21,9 @@ The correspondence between the NebulaGraph Spark Connector version, the NebulaGr
 |nebula-spark-connector_3.0-3.0-SNAPSHOT.jar|	nightly|	3.x|
 |nebula-spark-connector_2.2-3.0-SNAPSHOT.jar|	nightly|	2.2.x|
 |nebula-spark-connector-3.0-SNAPSHOT.jar|	nightly|	2.4.x|
+|nebula-spark-connector_3.0-3.6.0.jar| 3.x  | 3.x |
+|nebula-spark-connector_2.2-3.6.0.jar| 3.x  | 2.2.x |
+|nebula-spark-connector-3.6.0.jar    | 3.x  | 2.4.x |
 |nebula-spark-connector_2.2-3.4.0.jar|	3.x|	2.2.x|
 |nebula-spark-connector-3.4.0.jar|	3.x|	2.4.x|
 |nebula-spark-connector_2.2-3.3.0.jar|	3.x|	2.2.x|

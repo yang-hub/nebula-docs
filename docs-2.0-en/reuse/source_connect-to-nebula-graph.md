@@ -8,7 +8,7 @@ NebulaGraph supports multiple types of clients, including a CLI client, a GUI cl
 
 ## Prerequisites
 
-* You have started [NebulaGraph services](https://docs.nebula-graph.io/{{nebula.release}}/4.deployment-and-installation/manage-service/).<!--Use the external link here because this file is a source for reuse and using internal links creates errors.-->
+* You have started [NebulaGraph services](https://ent-docs.nebula-graph.io/{{nebula.release}}/4.deployment-and-installation/manage-service/).<!--Use the external link here because this file is a source for reuse and using internal links creates errors.-->
 
 * The machine on which you plan to run NebulaGraph Console has network access to the Graph Service of NebulaGraph.
 
@@ -67,7 +67,7 @@ NebulaGraph supports multiple types of clients, including a CLI client, a GUI cl
   | Parameter | Description |
   | - | - |
   | `-h/-help` | Shows the help menu. |
-  | `-addr/-address` | Sets the IP address of the Graph service. The default address is 127.0.0.1. <!--If NebulaGraph is deployed on [NebulaGraph Cloud](https://docs.nebula-graph.io/2.6.2/nebula-cloud/1.what-is-cloud/), you need to create a Private Link and set the IP address of the Private Endpoint as the parameter value.--> |
+  | `-addr/-address` | Sets the IP address of the Graph service. The default address is 127.0.0.1. <!--If NebulaGraph is deployed on [NebulaGraph Cloud](https://ent-docs.nebula-graph.io/2.6.2/nebula-cloud/1.what-is-cloud/), you need to create a Private Link and set the IP address of the Private Endpoint as the parameter value.--> |
   | `-P/-port` | Sets the port number of the graphd service. The default port number is 9669. |
   | `-u/-user` | Sets the username of your NebulaGraph account. Before enabling authentication, you can use any existing username. The default username is `root`. |
   | `-p/-password` | Sets the password of your NebulaGraph account. Before enabling authentication, you can use any characters as the password. |

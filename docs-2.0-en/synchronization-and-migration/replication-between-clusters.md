@@ -2,10 +2,6 @@
 
 NebulaGraph supports data synchronization from a primary cluster to a secondary cluster in almost real-time. It applies to scenarios such as disaster recovery and load balancing, and helps reduce the risk of data loss and enhance data security.
 
-!!! enterpriseonly
-
-    This feature applies to the Enterprise Edition only.
-
 ## Synchronization workflow
 
 The synchronization works as follows:

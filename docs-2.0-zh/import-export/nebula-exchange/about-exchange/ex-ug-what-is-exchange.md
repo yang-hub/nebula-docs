@@ -22,10 +22,6 @@ Exchange 适用于以下场景：
 
 - 需要导出{{nebula.name}}中保存的数据。
 
-  !!! note
-        
-        仅企业版 Exchange 支持从{{nebula.name}}中导出数据。
-
 ## 产品优点
 
 Exchange 具有以下优点：

@@ -6,21 +6,14 @@ You can use the `SUBMIT JOB BALANCE` statement to balance the distribution of pa
 
     The `BALANCE` commands migrate data and balance the distribution of partitions by creating and executing a set of subtasks. **DO NOT** stop any machine in the cluster or change its IP address until all the subtasks finish. Otherwise, the follow-up subtasks fail.
 
-{{ ent.ent_begin }}
 ## Balance partition distribution
 
 The `SUBMIT JOB BALANCE DATA` command starts a job to balance the distribution of storage partitions in the current graph space by creating and executing a set of subtasks.
-
-!!! enterpriseonly
-
-    Only available for the NebulaGraph Enterprise Edition.
     
 !!! note
 
     - If the current graph space already has a `SUBMIT JOB BALANCE DATA` job in the `FAILED` status, you can restore the `FAILED` job, but cannot start a new `SUBMIT JOB BALANCE DATA` job. If the job continues to fail, manually stop it, and then you can start a new one.
     - The following example introduces the methods of balanced partition distribution for storage nodes with the Zone feature disabled. When the Zone feature is enabled, balanced partition distribution is performed across zones by specifying the `IN ZONE` clause. For details, see [Manage Zones](../4.deployment-and-installation/5.zone.md).
-
-
 
 ### Examples
 
@@ -78,7 +71,7 @@ After you add new storage hosts into the cluster, no partition is deployed on th
   +-----------------+------+----------+--------------+----------------------+------------------------+----------------------+
   ```
 
-If any subtask fails, run `RECOVER JOB <job_id>` to recover the failed jobs. If redoing load balancing does not solve the problem, ask for help in the [NebulaGraph community](https://github.com/vesoft-inc/nebula/discussions).
+If any subtask fails, run `RECOVER JOB <job_id>` to recover the failed jobs. If redoing load balancing does not solve the problem, contact the after-sales staff.
 
 ### Stop data balancing
 
@@ -124,9 +117,6 @@ nebula> SHOW HOSTS;
 !!! note
 
     This command migrates partitions to other storage hosts but does not delete the current storage host from the cluster. To delete the Storage hosts from a cluster, see [Manage Storage hosts](../4.deployment-and-installation/manage-storage-host.md).
-
-{{ ent.ent_end }}
-
 
 ## Balance leader distribution
 

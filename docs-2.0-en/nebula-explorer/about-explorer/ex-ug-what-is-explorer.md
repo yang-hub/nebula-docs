@@ -2,15 +2,6 @@
 
 NebulaGraph Explorer (Explorer in short) is a browser-based visualization tool. It is used with the NebulaGraph core to visualize interaction with graph data. Even if there is no experience in graph database, you can quickly become a graph exploration expert.
 
-!!! enterpriseonly
-
-    - To purchase the NebulaGraph Explorer, [contact us](https://www.nebula-graph.io/contact). 
-    - New users can [apply for a 30-day trial](https://www.nebula-graph.io/visualization-tools-free-trial). You can also try some functions online in [Explorer](https://explorer.nebula-graph.io/).
-
-!!! Note
-
-    
-
 ## Scenarios
 
 You can use Explorer in one of these scenarios:

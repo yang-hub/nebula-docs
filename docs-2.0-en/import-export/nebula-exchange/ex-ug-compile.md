@@ -12,10 +12,6 @@ To download Exchange Enterprise Edition, [contact us](https://www.nebula-graph.i
 
 You can get the JAR file of Exchange Community Edition by compiling the source code. The following introduces how to compile the source code of Exchange.
 
-!!! enterpriseonly
-
-    You can get Exchange Enterprise Edition in NebulaGraph Enterprise Edition Package only.
-
 ### Prerequisites
 
 - Install [Maven](https://maven.apache.org/download.cgi).

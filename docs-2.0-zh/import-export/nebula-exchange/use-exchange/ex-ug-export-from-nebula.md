@@ -2,10 +2,6 @@
 
 Exchange 支持将{{nebula.name}}中的数据导出到 CSV 文件或另一个图空间（不同{{nebula.name}}集群也支持）中。本文介绍具体的操作步骤。
 
-!!! note
-
-    仅企业版 Exchange 支持导出{{nebula.name}}数据。
-
 ## 环境准备
 
 本示例在 Linux 系统的虚拟机环境下完成，导出数据前准备的软硬件信息如下。

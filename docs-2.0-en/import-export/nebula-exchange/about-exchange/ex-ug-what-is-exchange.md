@@ -22,10 +22,6 @@ Exchange applies to the following scenarios:
 
 - The data saved in NebulaGraph needs to be exported.
 
-  !!! enterpriseonly
-
-        Exporting the data saved in NebulaGraph is supported by Exchange Enterprise Edition only.
-
 ## Advantages
 
 Exchange has the following advantages:

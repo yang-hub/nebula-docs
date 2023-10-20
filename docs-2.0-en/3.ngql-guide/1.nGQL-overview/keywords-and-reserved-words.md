@@ -36,6 +36,7 @@ ACROSS
 ADD
 ALTER
 AND
+ANTI
 AS
 ASC
 ASCENDING
@@ -77,6 +78,7 @@ IN
 INDEX
 INDEXES
 INGEST
+INNER
 INSERT
 INT
 INT16
@@ -85,6 +87,8 @@ INT64
 INT8
 INTERSECT
 IS
+JOIN
+LEFT
 LIMIT
 LIST
 LOOKUP
@@ -100,6 +104,7 @@ OFFSET
 ON
 OR
 ORDER
+OUTER
 OVER
 OVERWRITE
 PROFILE
@@ -111,6 +116,8 @@ RESTART
 RETURN
 REVERSELY
 REVOKE
+RIGHT
+SEMI
 SET
 SHOW
 STEP
@@ -136,21 +143,6 @@ WITH
 XOR
 YIELD
 ```
-
-{{ent.ent_begin}}
-The following reserved keywords are only available in {{nebula.release}} enterprise version.
-
-```
-JOIN
-LEFT
-RIGHT
-INNER
-OUTER
-SEMI
-ANTI
-```
-{{ent.ent_end}}
-
 
 ## Non-reserved keywords
 

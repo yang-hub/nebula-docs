@@ -2,10 +2,6 @@
 
 The NebulaGraph audit logs store and categorize all operations performed on the Graph service. Dashboard Enterprise Edition allows you to quickly view audit logs.
 
-!!! enterpriseonly
-
-    Only when the cluster you created or imported is the Enterprise Edition, this feature is available.
-
 ## Entry
 
 1. At the top navigation bar of the Dashboard Enterprise Edition page, click **Cluster Management**.

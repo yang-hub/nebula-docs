@@ -2,23 +2,13 @@ RPM and DEB are common package formats on Linux systems. This topic shows how to
 
 !!! note
 
-    The console is not complied or packaged with NebulaGraph server binaries. You can install [nebula-console](https://github.com/vesoft-inc/nebula-console) by yourself.
-
-{{ ent.ent_begin }}
-
-!!! enterpriseonly
- 
-    For NebulaGraph Enterprise, please [contact us](https://www.nebula-graph.io/contact).
-
-{{ ent.ent_end }}
+    See [Deploying a cluster using RPM/DEB packages](https://ent-docs.nebula-graph.io/{{nebula.release}}/2.quick-start/3.quick-start-on-premise/3.1add-storage-hosts/) for deploying a NebulaGraph cluster.
 
 ## Prerequisites
 
 - The tool `wget` is installed.
 
-{{ ent.ent_begin }}
-- For NebulaGraph Enterprise, you must have the [license key](https://docs.nebula-graph.io/3.5.0-sc/9.about-license/1.license-overview/#license_key) loaded in [LM](https://docs.nebula-graph.io/3.5.0-sc/9.about-license/2.license-management-suite/3.license-manager/).
-{{ ent.ent_end }}
+- You must have the [license key](https://ent-docs.nebula-graph.io/{{nebula.release}}/9.about-license/1.license-overview/#license_key) loaded in [LM](https://ent-docs.nebula-graph.ioo/{{nebula.release}}/9.about-license/2.license-management-suite/3.license-manager/).
 
 ## Step 1: Download the package from cloud service
 
@@ -136,19 +126,12 @@ RPM and DEB are common package formats on Linux systems. This topic shows how to
 
         The default installation path is `/usr/local/nebula/`.
 
-{{ ent.ent_begin }}
-
 ## Step 3: Configure the address of the License Manager
 
-!!! enterpriseonly
-
-    This step is required only for NebulaGraph Enterprise.
-
-In the Meta service configuration file (`nebula-metad.conf`) of NebulaGraph, set the value of `license_manager_url` to the host IP and port number `9119` where the [License Manager (LM)](https://docs.nebula-graph.io/3.5.0-sc/9.about-license/2.license-management-suite/3.license-manager/) is located, e.g. `192.168.8.100:9119`.
-{{ ent.ent_end }}
+In the Meta service configuration file (`nebula-metad.conf`) of NebulaGraph, set the value of `license_manager_url` to the host IP and port number `9119` where the [License Manager (LM)](https://ent-docs.nebula-graph.io/{{nebula.release}}/9.about-license/2.license-management-suite/3.license-manager/) is located, e.g. `192.168.8.100:9119`.
 
 ## Next to do
 
-- [Start NebulaGraph](https://docs.nebula-graph.io/{{nebula.release}}/2.quick-start/5.start-stop-service/)  <!--这里用外链。-->
+- [Start NebulaGraph](https://ent-docs.nebula-graph.io/{{nebula.release}}/2.quick-start/5.start-stop-service/)  <!--这里用外链。-->
 
-- [Connect to NebulaGraph](https://docs.nebula-graph.io/{{nebula.release}}/2.quick-start/3.connect-to-nebula-graph/)<!--这里用外链。-->
+- [Connect to NebulaGraph](https://ent-docs.nebula-graph.io/{{nebula.release}}/2.quick-start/3.connect-to-nebula-graph/)<!--这里用外链。-->
