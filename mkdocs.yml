@@ -115,27 +115,28 @@ plugins:
         # - nebula-cloud/*
         - nebula-cloud.md
         - nebula-cloud/nebula-cloud-on-azure/*
-        - spark-connector/*
-        - 4.deployment-and-installation/3.upgrade-nebula-graph/upgrade-nebula-from-200-to-latest.md
-        - 9.about-license/3.purchase-license.md
-        - 9.about-license/4.generate-and-load-license-key.md
-        - 9.about-license/5.manage-license.md
-        - 9.about-license/2.license-management-suite/1.suite-overview.md
-        - 9.about-license/2.license-management-suite/2.license-center.md
         - 15.contribution/how-to-contribute.md
         - 2.quick-start/1.quick-start-overview.md
         - 2.quick-start/2.start-free-trial-on-cloud.md
-        - backup-and-restore/nebula-br/*
         - 4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code.md
         - 15.contribution/how-to-contribute.md
         - 4.deployment-and-installation/standalone-deployment.md
         - 8.service-tuning/enable_autofdo_for_nebulagraph.md
         - 20.appendix/history.md
         - 20.appendix/mind-map.md
+        - 20.appendix/learning-path.md
         - 3.ngql-guide/6.functions-and-expressions/9.user-defined-functions.md
         - 4.deployment-and-installation/2.compile-and-install-nebula-graph/7.compile-using-docker.md
         - 9.about-license/2.license-management-suite/2.license-center.md
+        # zh.begin  
+        - 9.about-license/3.purchase-license.md
+        - 9.about-license/4.generate-and-load-license-key.md
+        - 9.about-license/5.manage-license.md
+        - 9.about-license/2.license-management-suite/1.suite-overview.md
+        - 9.about-license/2.license-management-suite/2.license-center.md
         # zh.end
+        # en.begin  
+        # en.end
 
 
   - with-pdf:
@@ -529,10 +530,10 @@ nav:
 
   - 备份与恢复:
       - 悦数备份&恢复:
-        - 悦数备份&恢复概述: backup-and-restore/1.br-ent-overview.md
-        - 安装: backup-and-restore/2.install-tools.md
-        - 备份数据: backup-and-restore/3.backup-data.md
-        - 恢复数据: backup-and-restore/4.restore-data.md
+        - 悦数备份&恢复概述: backup-and-restore/br-ent/1.br-ent-overview.md
+        - 安装: backup-and-restore/br-ent/2.install-tools.md
+        - 备份数据: backup-and-restore/br-ent/3.backup-data.md
+        - 恢复数据: backup-and-restore/br-ent/4.restore-data.md
       - 快照: backup-and-restore/3.manage-snapshot.md
 
   - 同步与迁移:
@@ -968,10 +969,10 @@ nav:
 
 #  - Backup and restore:
 #      - NebulaGraph BR Enterprise:
-#        - What is BR Enterprise: backup-and-restore/nebula-br-ent/1.br-ent-overview.md
-#        - Install BR: backup-and-restore/nebula-br-ent/2.install-tools.md
-#        - Back up data with BR: backup-and-restore/nebula-br-ent/3.backup-data.md
-#        - Restore data with BR: backup-and-restore/nebula-br-ent/4.restore-data.md
+#        - What is BR Enterprise: backup-and-restore/br-ent/1.br-ent-overview.md
+#        - Install BR: backup-and-restore/br-ent/2.install-tools.md
+#        - Back up data with BR: backup-and-restore/br-ent/3.backup-data.md
+#        - Restore data with BR: backup-and-restore/br-ent/4.restore-data.md
 #      - Manage snapshots: backup-and-restore/3.manage-snapshot.md
 
   - Synchronize and migrate:
@@ -1017,7 +1018,7 @@ nav:
     - System design suggestions: 8.service-tuning/3.system-design.md
     - Execution plan: 8.service-tuning/4.plan.md
     - Processing super vertices: 8.service-tuning/super-node.md
-    - Enable AutoFDO: 8.service-tuning/enable_autofdo_for_nebulagraph.md
+#    - Enable AutoFDO: 8.service-tuning/enable_autofdo_for_nebulagraph.md
     - Best practices: 8.service-tuning/practice.md
 
   - Clients:
