@@ -741,7 +741,7 @@ nav:
           - YIELD: 3.ngql-guide/8.clauses-and-options/yield.md
           - WITH: 3.ngql-guide/8.clauses-and-options/with.md
           - UNWIND: 3.ngql-guide/8.clauses-and-options/unwind.md
-          - INNER JOIN: 3.ngql-guide/8.clauses-and-options/joins.md
+#          - INNER JOIN: 3.ngql-guide/8.clauses-and-options/joins.md
 
       - 图空间语句:
           - CREATE SPACE: 3.ngql-guide/9.space-statements/1.create-space.md
@@ -820,7 +820,6 @@ nav:
       - 管理服务: 4.deployment-and-installation/manage-service.md
       - 连接服务: 4.deployment-and-installation/connect-to-nebula-graph.md
       - 管理 Storage 主机: 4.deployment-and-installation/manage-storage-host.md
-#      - 管理逻辑机架（Zone）: 4.deployment-and-installation/5.zone.md
       - 升级版本: 4.deployment-and-installation/3.upgrade-nebula-graph/upgrade-nebula-comm.md
       - 卸载: 4.deployment-and-installation/4.uninstall-nebula-graph.md
 
@@ -957,7 +956,6 @@ nav:
       - 常见问题: nebula-operator/7.operator-faq.md
 
   - 图计算:
-#    - 算法简介: graph-computing/algorithm-description.md
     - NebulaGraph Algorithm: graph-computing/nebula-algorithm.md  
 
   - NebulaGraph Bench: nebula-bench.md
