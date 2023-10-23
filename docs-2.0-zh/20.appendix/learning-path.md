@@ -2,13 +2,13 @@
 
 本文介绍{{nebula.name}}学习路径，用户可以通过路径中的文档及视频由浅入深地学习{{nebula.name}}。
 
-{{comm.comm_begin}}
+
  ![learning path](https://docs-cdn.nebula-graph.com.cn/figures/learning-path.png)
 
 完成{{nebula.name}}学习后，参加[技能认证](https://www.bilibili.com/video/BV1Ga411x7RE)考试还可以获取认证证书。详情参见下文**通过 CI/CP 考试**。
 
 <iframe src="//player.bilibili.com/player.html?aid=215181639&bvid=BV1Ga411x7RE&cid=752738115&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720px" height="480px"> </iframe>
-{{comm.comm_end}}
+
 
 
 ## 1. 关于{{nebula.name}}
@@ -144,13 +144,7 @@
   | ------------------------------------------------------------ |
   |[创建快照](https://docs.nebula-graph.com.cn/{{nebula.release}}/backup-and-restore/3.manage-snapshot/#_5)|
 
-<!--
-- 资源隔离
-
-  | 文档 |
-  | ------------------------------------------------------------ |
-  |[Group & Zone](https://docs.nebula-graph.com.cn/{{nebula.release}}/7.data-security/5.zone/)|
--->
+ 
 
 - SSL 加密
 
@@ -183,8 +177,7 @@
   | 可视化工具     | 文档                                                         | 视频                                                         |
   | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
   | 数据可视化     | [Nebula Studio](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-studio/about-studio/st-ug-what-is-graph-studio/) | [Nebula Studio 图探索功能](https://www.bilibili.com/video/BV1QN411Z7Vh)和[Nebula Studio 可视化建模](https://www.bilibili.com/video/BV19A411L77h?spm_id_from=333.999.0.0) |
-  | 数据监控和运维 | [{{dashboard_ent.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-dashboard-ent/1.what-is-dashboard-ent/)和 [Nebula Dashboard 社区版](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-dashboard/1.what-is-dashboard/) | [{{dashboard_ent.name}}](https://www.bilibili.com/video/BV1qQ4y1k7gb?)                                                            |
-  | 数据分析       | [{{explorer.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-explorer/about-explorer/ex-ug-what-is-explorer/) | [{{explorer.name}}](https://www.bilibili.com/video/BV1fP4y1h7Fx?)                                                            |
+  | 数据监控和运维 | [Nebula Dashboard 社区版](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-dashboard/1.what-is-dashboard/) | -                                               |
 
 - 数据导入与导出
 
@@ -194,22 +187,17 @@
   | 数据导入       | [Nebula Spark Connector](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-spark-connector/) | -                                                            |
   | 数据导入       | [Nebula Flink Connector](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-flink-connector/) | -                                                            |
   | 数据导入       | [Nebula Exchange 社区版](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-exchange/about-exchange/ex-ug-what-is-exchange/) | [{{nebula.name}}数据导入工具——Exchange](https://www.bilibili.com/video/BV1Pq4y177D9)、[Exchange 导入 SST 数据](https://www.bilibili.com/video/BV1y34y1o7Di?)  |
-  | 数据导出       | [Nebula Exchange 企业版](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-exchange/about-exchange/ex-ug-what-is-exchange/) | -                                                            |
 
 
 - 备份与恢复
 
-  {{ comm.comm_begin }}
+  
   | 文档                    |     视频                               |
   | ------------------------|------------------------------------ |
   |[Nebula BR](https://docs.nebula-graph.com.cn/{{nebula.release}}/backup-and-restore/nebula-br/1.what-is-br/)|[{{nebula.name}}容灾备份工具 nebula-br](https://www.bilibili.com/video/BV11L4y1g7rD)|
-  {{ comm.comm_end }}
+  
 
-  {{ ent.ent_begin }}
-  | 文档                    |     视频                               |
-  | ------------------------|------------------------------------ |
-  |[Nebula BR](https://docs.nebula-graph.com.cn/{{nebula.release}}/backup-and-restore/nebula-br-ent/1.br-ent-overview/)|-|
-  {{ ent.ent_end }}
+  
 
 - 性能测试
 
@@ -267,7 +255,7 @@
   | ------------------------------------------------------------ |
   | [常见问题 FAQ](https://docs.nebula-graph.com.cn/{{nebula.release}}/20.appendix/0.FAQ/#faq) |
 
-{{comm.comm_begin}}
+
 ## 7. 实操作业
 
  用户可以通过完成以下实操作业来检测是否玩转{{nebula.name}}。
@@ -275,7 +263,7 @@
   | 作业内容                                                | 参考                                                         |
   | ------------------------------------------------------- | ------------------------------------------------------------ |
   | 编译内核                                                | [使用源码安装{{nebula.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/4.deployment-and-installation/2.compile-and-install-nebula-graph/1.install-nebula-graph-by-compiling-the-source-code/)                                                             |
-  | 部署可视化工具 Studio、Dashboard、Explorer             | [部署 Studio](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-studio/deploy-connect/st-ug-deploy/)、[部署 Dashboard](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-dashboard/2.deploy-dashboard/)、[部署{{explorer.name}}](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-explorer/deploy-connect/ex-ug-deploy/)                                                            |
+  | 部署可视化工具 Studio、Dashboard、Explorer             | [部署 Studio](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-studio/deploy-connect/st-ug-deploy/)、[部署 Dashboard](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-dashboard/2.deploy-dashboard/)、[部署 Explorer](https://docs.nebula-graph.com.cn/{{nebula.release}}/nebula-explorer/deploy-connect/ex-ug-deploy/)                                                            |
   | 使用 K6 压测{{nebula.name}}                            | [K6 在{{nebula.name}}上的压测实践](https://nebula-graph.com.cn/posts/practice-k6-at-nebula-graph/) |
   | 导入 LDBC 数据                                          | [LDBC 数据导入及 nGQL 实践](https://mp.weixin.qq.com/s/tbLGuuX6vNzLIw6o8ZGKpw)                                                           |
   | 查询 LDBC 数据（点查、K度邻居查询、路径查询、子图查询） | [LDBC](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://ldbcouncil.org/ldbc_snb_docs/ldbc-snb-specification.pdf) 和 [interactive-short-1.cypher](https://github.com/ldbc/ldbc_snb_interactive/blob/main/cypher/queries/interactive-short-1.cypher) |
@@ -302,4 +290,4 @@
 
 - 有关{{nebula.name}}语言的概述，参见[分布式图数库论文](https://arxiv.org/pdf/2206.07278.pdf)中的 2.8 节。
 
-{{comm.comm_end}}
+
