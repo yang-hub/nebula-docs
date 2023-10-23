@@ -8,8 +8,6 @@
 
 - 不支持属性的 Default 值。
 
-- 企业版 Exchange {{exchange.release}}不支持基于 [GEOGRAPHY](../../../3.ngql-guide/3.data-types/10.geography.md) 类型的数据生成 SST 文件。
-
 ## 背景信息
 
 Exchange 支持两种数据导入模式：
