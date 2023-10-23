@@ -653,49 +653,49 @@ nav:
 #      - 监控指标说明: nebula-dashboard-ent/7.monitor-parameter.md
 #      - 常见问题 FAQ: nebula-dashboard-ent/8.faq.md
 
-#  - 图探索:
-#    - 什么是悦数图探索: nebula-explorer/about-explorer/ex-ug-what-is-explorer.md
-#    - 安装与登录:
-#      - 部署悦数图探索: nebula-explorer/deploy-connect/ex-ug-deploy.md
-#      - 连接数据库: nebula-explorer/deploy-connect/ex-ug-connect.md
-#    - 页面概览: nebula-explorer/ex-ug-page-overview.md
-#    - 数据库管理:
-#      - Schema 草图: nebula-explorer/db-management/draft.md
-#      - Schema 管理: nebula-explorer/db-management/10.create-schema.md
-#      - 数据导入: nebula-explorer/db-management/11.import-data.md
-#      - 控制台: nebula-explorer/db-management/explorer-console.md
-#      - 查询语句模板: nebula-explorer/db-management/ngql-template.md
-#      - 数据库用户管理: nebula-explorer/db-management/dbuser_management.md
-#    - 图探索:
-#      - 选择图空间: nebula-explorer/graph-explorer/13.choose-graphspace.md
-#      - 开始探索: nebula-explorer/graph-explorer/ex-ug-query-exploration.md
-#      - 节点筛选: nebula-explorer/graph-explorer/node-filtering.md
-#      - 探索拓展: nebula-explorer/graph-explorer/ex-ug-graph-exploration.md
-#      - 图计算: nebula-explorer/graph-explorer/graph-algorithm.md
-#      - 属性计算: nebula-explorer/graph-explorer/property-calculation.md
-#    - 可视化查询: nebula-explorer/12.query-visually.md
-#    - 画布功能: 
-#      - 画布概览: nebula-explorer/canvas-operations/canvas-overview.md
-#      - 可视化模式: nebula-explorer/canvas-operations/visualization-mode.md
-#      - 画布快照: nebula-explorer/canvas-operations/canvas-snapshot.md
-#    - 工作流:
-#      - 工作流简介: nebula-explorer/workflow/workflows.md
-#      - 资源配置: nebula-explorer/workflow/1.prepare-resources.md
-#      - 工作流示例: nebula-explorer/workflow/2.create-workflow.md
-#      - 工作流管理: nebula-explorer/workflow/3.workflow-management.md
-#      - 作业管理: nebula-explorer/workflow/4.jobs-management.md
-#      - 工作流 API:
-#        - API 概览: nebula-explorer/workflow/workflow-api/workflow-api-overview.md
-#        - 新增作业: nebula-explorer/workflow/workflow-api/api-post-jobs.md
-#        - 获取所有作业列表: nebula-explorer/workflow/workflow-api/api-get-jobs.md
-#        - 获取指定工作流的作业列表: nebula-explorer/workflow/workflow-api/api-get-workflow-jobs.md
-#        - 查询指定作业详情: nebula-explorer/workflow/workflow-api/api-desc-job.md
-#        - 取消作业运行: nebula-explorer/workflow/workflow-api/api-cancel-job.md
-#        - 获取指定任务的运行结果数据: nebula-explorer/workflow/workflow-api/api-desc-task.md
-#    - 内联框架: nebula-explorer/iframe.md
-#    - 系统设置: nebula-explorer/system-settings.md
-#    - 基本操作和快捷键: nebula-explorer/ex-ug-shortcuts.md
-#    - 常见问题 FAQ: nebula-explorer/faq.md
+  - 图探索:
+    - 什么是悦数图探索: nebula-explorer/about-explorer/ex-ug-what-is-explorer.md
+    - 安装与登录:
+      - 部署悦数图探索: nebula-explorer/deploy-connect/ex-ug-deploy.md
+      - 连接数据库: nebula-explorer/deploy-connect/ex-ug-connect.md
+    - 页面概览: nebula-explorer/ex-ug-page-overview.md
+    - 数据库管理:
+      - Schema 草图: nebula-explorer/db-management/draft.md
+      - Schema 管理: nebula-explorer/db-management/10.create-schema.md
+      - 数据导入: nebula-explorer/db-management/11.import-data.md
+      - 控制台: nebula-explorer/db-management/explorer-console.md
+      - 查询语句模板: nebula-explorer/db-management/ngql-template.md
+      - 数据库用户管理: nebula-explorer/db-management/dbuser_management.md
+    - 图探索:
+      - 选择图空间: nebula-explorer/graph-explorer/13.choose-graphspace.md
+      - 开始探索: nebula-explorer/graph-explorer/ex-ug-query-exploration.md
+      - 节点筛选: nebula-explorer/graph-explorer/node-filtering.md
+      - 探索拓展: nebula-explorer/graph-explorer/ex-ug-graph-exploration.md
+      - 图计算: nebula-explorer/graph-explorer/graph-algorithm.md
+      - 属性计算: nebula-explorer/graph-explorer/property-calculation.md
+    - 可视化查询: nebula-explorer/12.query-visually.md
+    - 画布功能: 
+      - 画布概览: nebula-explorer/canvas-operations/canvas-overview.md
+      - 可视化模式: nebula-explorer/canvas-operations/visualization-mode.md
+      - 画布快照: nebula-explorer/canvas-operations/canvas-snapshot.md
+    - 工作流:
+      - 工作流简介: nebula-explorer/workflow/workflows.md
+      - 资源配置: nebula-explorer/workflow/1.prepare-resources.md
+      - 工作流示例: nebula-explorer/workflow/2.create-workflow.md
+      - 工作流管理: nebula-explorer/workflow/3.workflow-management.md
+      - 作业管理: nebula-explorer/workflow/4.jobs-management.md
+      - 工作流 API:
+        - API 概览: nebula-explorer/workflow/workflow-api/workflow-api-overview.md
+        - 新增作业: nebula-explorer/workflow/workflow-api/api-post-jobs.md
+        - 获取所有作业列表: nebula-explorer/workflow/workflow-api/api-get-jobs.md
+        - 获取指定工作流的作业列表: nebula-explorer/workflow/workflow-api/api-get-workflow-jobs.md
+        - 查询指定作业详情: nebula-explorer/workflow/workflow-api/api-desc-job.md
+        - 取消作业运行: nebula-explorer/workflow/workflow-api/api-cancel-job.md
+        - 获取指定任务的运行结果数据: nebula-explorer/workflow/workflow-api/api-desc-task.md
+    - 内联框架: nebula-explorer/iframe.md
+    - 系统设置: nebula-explorer/system-settings.md
+    - 基本操作和快捷键: nebula-explorer/ex-ug-shortcuts.md
+    - 常见问题 FAQ: nebula-explorer/faq.md
 
   - 图计算:
 
@@ -1089,49 +1089,49 @@ nav:
   
 
   
-#  - Explorer:
-#     - What is NebulaGraph Explorer: nebula-explorer/about-explorer/ex-ug-what-is-explorer.md
-#     - Deploy and connect:
-#       - Deploy Explorer: nebula-explorer/deploy-connect/ex-ug-deploy.md
-#       - Connect to NebulaGraph: nebula-explorer/deploy-connect/ex-ug-connect.md
-#     - Page overview: nebula-explorer/ex-ug-page-overview.md
-#     - Database management:
-#       - Schema drafting: nebula-explorer/db-management/draft.md
-#       - Schema management: nebula-explorer/db-management/10.create-schema.md
-#       - Data import: nebula-explorer/db-management/11.import-data.md
-#       - Console: nebula-explorer/db-management/explorer-console.md
-#       - nGQL template: nebula-explorer/db-management/ngql-template.md
-#       - Database user management: nebula-explorer/db-management/dbuser_management.md
-#     - Graph explorer:
-#       - Choose graph space: nebula-explorer/graph-explorer/13.choose-graphspace.md
-#       - Start querying: nebula-explorer/graph-explorer/ex-ug-query-exploration.md
-#       - Vertex Filter: nebula-explorer/graph-explorer/node-filtering.md
-#       - Graph exploration: nebula-explorer/graph-explorer/ex-ug-graph-exploration.md
-#       - Graph computing: nebula-explorer/graph-explorer/graph-algorithm.md
-#       - Property calculation: nebula-explorer/graph-explorer/property-calculation.md
-#     - Visual query: nebula-explorer/12.query-visually.md
-#     - Canvas: 
-#       - Canvas overview: nebula-explorer/canvas-operations/canvas-overview.md
-#       - Visualization modes: nebula-explorer/canvas-operations/visualization-mode.md
-#       - Canvas snapshots: nebula-explorer/canvas-operations/canvas-snapshot.md
-#     - Workflow:
-#       - Workflow overview: nebula-explorer/workflow/workflows.md
-#       - Resource preparations: nebula-explorer/workflow/1.prepare-resources.md
-#       - Workflow example: nebula-explorer/workflow/2.create-workflow.md
-#       - Workflow management: nebula-explorer/workflow/3.workflow-management.md
-#       - Job management: nebula-explorer/workflow/4.jobs-management.md
-#       - Workflow API:
-#         - API overview: nebula-explorer/workflow/workflow-api/workflow-api-overview.md
-#         - Add a new job: nebula-explorer/workflow/workflow-api/api-post-jobs.md
-#         - Get a list of all jobs: nebula-explorer/workflow/workflow-api/api-get-jobs.md
-#         - Get a list of jobs for a specified workflow: nebula-explorer/workflow/workflow-api/api-get-workflow-jobs.md
-#         - Query details for a specified job: nebula-explorer/workflow/workflow-api/api-desc-job.md
-#         - Cancel a running job: nebula-explorer/workflow/workflow-api/api-cancel-job.md
-#         - Get the result data of a specified task: nebula-explorer/workflow/workflow-api/api-desc-task.md
-#     - Inline frame: nebula-explorer/iframe.md
-#     - System settings: nebula-explorer/system-settings.md
-#     - Basic operations and shortcuts: nebula-explorer/ex-ug-shortcuts.md
-#     - FAQ: nebula-explorer/faq.md
+  - Explorer:
+     - What is NebulaGraph Explorer: nebula-explorer/about-explorer/ex-ug-what-is-explorer.md
+     - Deploy and connect:
+       - Deploy Explorer: nebula-explorer/deploy-connect/ex-ug-deploy.md
+       - Connect to NebulaGraph: nebula-explorer/deploy-connect/ex-ug-connect.md
+     - Page overview: nebula-explorer/ex-ug-page-overview.md
+     - Database management:
+       - Schema drafting: nebula-explorer/db-management/draft.md
+       - Schema management: nebula-explorer/db-management/10.create-schema.md
+       - Data import: nebula-explorer/db-management/11.import-data.md
+       - Console: nebula-explorer/db-management/explorer-console.md
+       - nGQL template: nebula-explorer/db-management/ngql-template.md
+       - Database user management: nebula-explorer/db-management/dbuser_management.md
+     - Graph explorer:
+       - Choose graph space: nebula-explorer/graph-explorer/13.choose-graphspace.md
+       - Start querying: nebula-explorer/graph-explorer/ex-ug-query-exploration.md
+       - Vertex Filter: nebula-explorer/graph-explorer/node-filtering.md
+       - Graph exploration: nebula-explorer/graph-explorer/ex-ug-graph-exploration.md
+       - Graph computing: nebula-explorer/graph-explorer/graph-algorithm.md
+       - Property calculation: nebula-explorer/graph-explorer/property-calculation.md
+     - Visual query: nebula-explorer/12.query-visually.md
+     - Canvas: 
+       - Canvas overview: nebula-explorer/canvas-operations/canvas-overview.md
+       - Visualization modes: nebula-explorer/canvas-operations/visualization-mode.md
+       - Canvas snapshots: nebula-explorer/canvas-operations/canvas-snapshot.md
+     - Workflow:
+       - Workflow overview: nebula-explorer/workflow/workflows.md
+       - Resource preparations: nebula-explorer/workflow/1.prepare-resources.md
+       - Workflow example: nebula-explorer/workflow/2.create-workflow.md
+       - Workflow management: nebula-explorer/workflow/3.workflow-management.md
+       - Job management: nebula-explorer/workflow/4.jobs-management.md
+       - Workflow API:
+         - API overview: nebula-explorer/workflow/workflow-api/workflow-api-overview.md
+         - Add a new job: nebula-explorer/workflow/workflow-api/api-post-jobs.md
+         - Get a list of all jobs: nebula-explorer/workflow/workflow-api/api-get-jobs.md
+         - Get a list of jobs for a specified workflow: nebula-explorer/workflow/workflow-api/api-get-workflow-jobs.md
+         - Query details for a specified job: nebula-explorer/workflow/workflow-api/api-desc-job.md
+         - Cancel a running job: nebula-explorer/workflow/workflow-api/api-cancel-job.md
+         - Get the result data of a specified task: nebula-explorer/workflow/workflow-api/api-desc-task.md
+     - Inline frame: nebula-explorer/iframe.md
+     - System settings: nebula-explorer/system-settings.md
+     - Basic operations and shortcuts: nebula-explorer/ex-ug-shortcuts.md
+     - FAQ: nebula-explorer/faq.md
 
   - Graph computing:
 
