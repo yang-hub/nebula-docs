@@ -967,13 +967,13 @@ nav:
           - OpenLDAP authentication: 7.data-security/1.authentication/4.ldap.md
       - SSL: 7.data-security/4.ssl.md
 
-#  - Backup and restore:
-#      - NebulaGraph BR Enterprise:
-#        - What is BR Enterprise: backup-and-restore/br-ent/1.br-ent-overview.md
-#        - Install BR: backup-and-restore/br-ent/2.install-tools.md
-#        - Back up data with BR: backup-and-restore/br-ent/3.backup-data.md
-#        - Restore data with BR: backup-and-restore/br-ent/4.restore-data.md
-#      - Manage snapshots: backup-and-restore/3.manage-snapshot.md
+  - Backup and restore:
+      - NebulaGraph BR Enterprise:
+        - What is BR Enterprise: backup-and-restore/br-ent/1.br-ent-overview.md
+        - Install BR: backup-and-restore/br-ent/2.install-tools.md
+        - Back up data with BR: backup-and-restore/br-ent/3.backup-data.md
+        - Restore data with BR: backup-and-restore/br-ent/4.restore-data.md
+      - Manage snapshots: backup-and-restore/3.manage-snapshot.md
 
   - Synchronize and migrate:
       - Load balance: synchronization-and-migration/2.balance-syntax.md
