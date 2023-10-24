@@ -83,7 +83,7 @@ After completing the NebulaGraph learning path, taking [NebulaGraph Certificatio
 
   | Document                                                         |
   | ------------------------------------------------------------ |
-  | [Upgrade NebulaGraph to {{nebula.branch}}](../4.deployment-and-installation/3.upgrade-nebula-graph/upgrade-nebula-graph-to-latest.md) |
+  | [Upgrade NebulaGraph to {{nebula.branch}}](../4.deployment-and-installation/3.upgrade-nebula-graph/upgrade-nebula-comm.md) |
   
   <!-- | [Upgrade NebulaGraph from v2.0.x to {{nebula.branch}}](../4.deployment-and-installation/3.upgrade-nebula-graph/upgrade-nebula-from-200-to-latest.md) | -->
 
@@ -112,11 +112,6 @@ After completing the NebulaGraph learning path, taking [NebulaGraph Certificatio
   | [User management](../7.data-security/1.authentication/2.management-user.md) |
   | [Roles and privileges](../7.data-security/1.authentication/3.role-list.md) |
 
-  {{ent.ent_begin}}
-  !!! note
-        The [OpenLDAP](../7.data-security/1.authentication/4.ldap.md) feature is only available in NebulaGraph Enterprise Edition.
-  {{ent.ent_end}}
-
 - Balance the distribution of partitions
 
   | Document |
@@ -141,13 +136,6 @@ After completing the NebulaGraph learning path, taking [NebulaGraph Certificatio
   | Document |
   | ------------------------------------------------------------ |
   |[Backup&Restore](../backup-and-restore/nebula-br/1.what-is-br.md)|
-<!--
-- Resource isolation
-
-  | Document |
-  | ------------------------------------------------------------ |
-  |[Group & Zone](../7.data-security/5.zone.md)|
--->
 
 - SSL encryption
 
@@ -175,21 +163,15 @@ After completing the NebulaGraph learning path, taking [NebulaGraph Certificatio
   | Data visualization     | [NebulaGraph Studio](../nebula-studio/about-studio/st-ug-what-is-graph-studio.md) | [NebulaGraph Studio](https://www.youtube.com/watch?v=6V4salpkIbc&list=PL4ArMmsAnb86R2MfUKFjzTQizCZCrhu2p)|
   | Data monitoring and O&M | [NebulaGraph Dashboard Community Edition](../nebula-dashboard/1.what-is-dashboard.md) | -|
 
-  {{ent.ent_begin}}
-  !!! note
-        The visualization tools [NebulaGraph Dashboard Enterprise](../nebula-dashboard-ent/1.what-is-dashboard-ent.md) and [NebulaGraph Explorer](../nebula-explorer/about-explorer/ex-ug-what-is-explorer.md) are only available in NebulaGraph Enterprise Edition.
-  {{ent.ent_end}}
-
 
 - Data import and export
 
   | Import and export | Document                                                         | Video                                                         |
   | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | Data import       | [NebulaGraph Importer](../nebula-importer/use-importer.md) | [NebulaGraph Importer](https://www.bilibili.com/video/BV1ny4y1u7i4) |
-  | Data import       | [NebulaGraph Spark Connector](../nebula-spark-connector.md) | -                                                            |
-  | Data import       | [NebulaGraph Flink Connector](../nebula-flink-connector.md) | -                                                            |
-  | Data import       | [NebulaGraph Exchange Community Edition](../nebula-exchange/about-exchange/ex-ug-what-is-exchange.md) | - |
-  | Data export       | [NebulaGraph Exchange Enterprise Edition](../nebula-exchange/about-exchange/ex-ug-what-is-exchange.md) | -                                                            |
+  | Data import       | [NebulaGraph Importer](../import-export/use-importer.md) | [NebulaGraph Importer](https://www.bilibili.com/video/BV1ny4y1u7i4) |
+  | Data import       | [NebulaGraph Spark Connector](../import-export/nebula-spark-connector.md) | -                                                            |
+  | Data import       | [NebulaGraph Flink Connector](../import-export/nebula-flink-connector.md) | -                                                            |
+  | Data import       | [NebulaGraph Exchange Community Edition](../import-export/nebula-exchange/about-exchange/ex-ug-what-is-exchange.md) | - |
   
 - Performance test
 
@@ -256,12 +238,6 @@ You can check if you have mastered NebulaGraph by completing the following pract
   | Deploy Studio and Dashboard            | [Deploy Studio](../nebula-studio/deploy-connect/st-ug-deploy.md), [Deploy Dashboard](../nebula-dashboard/2.deploy-dashboard.md)                                                            |
   | Load test NebulaGraph with K6                               | [NebulaGraph Bench](../nebula-bench.md) |
   | Query LDBC data (such as queries for vertices, paths, or subgraphs.) | [LDBC](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://ldbcouncil.org/ldbc_snb_docs/ldbc-snb-specification.pdf) and [interactive-short-1.cypher](https://github.com/ldbc/ldbc_snb_interactive/blob/main/cypher/queries/interactive-short-1.cypher) |
-
-  {{ent.ent_begin}}
-!!! note
-
-    [Deploy Explorer](../nebula-explorer/deploy-connect/ex-ug-deploy.md) can be used only in NebulaGraph Enterprise Edition.
-  {{ent.ent_end}}
 
 ## 8. Get NebulaGraph Certifications
 
