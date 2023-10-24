@@ -4,7 +4,7 @@
 
     This manual is revised on {{ now().year }}-{{ now().month }}-{{ now().day }}, with GitHub commit [{{ git.short_commit }}](https://github.com/vesoft-inc/nebula-docs/commits/v{{nebula.release}}).
 
-NebulaGraph is a distributed, scalable, and lightning-fast graph database. It is the optimal solution in the world capable of hosting graphs with dozens of billions of vertices (nodes) and trillions of edges (relationships) with millisecond latency.
+NebulaGraph is a distributed and scalable graph database. It is the optimal solution in the world capable of hosting graphs with dozens of billions of vertices (nodes) and trillions of edges (relationships) with millisecond latency.
 
 ## Getting started
 
