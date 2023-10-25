@@ -52,7 +52,6 @@ jobs:
           mike deploy ${{ env.ACTIONTEST }} -b gh-pages-zh -p --rebase
       #   The set-default command is only applicable to the latest version and must be commented in older versions.  
       #  mike set-default ${{ env.ACTIONTEST }} -b gh-pages-zh -p --rebase
-      #  mike list
     
       - name: show Chinese git branches
         run: |
