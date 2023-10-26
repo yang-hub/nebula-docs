@@ -96,6 +96,13 @@ plugins:
   - glightbox:  
       zoomable: true
   - search # 企业版文档使用mkdocs自带搜索。
+      lang:
+# en.begin      
+        - en
+# en.end
+# zh.begin        
+        - zh
+# zh.end        
   - macros:
 # en.begin  
       include_dir: docs-2.0-en/reuse/
