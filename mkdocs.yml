@@ -95,7 +95,7 @@ plugins:
   # 图片展示插件（https://github.com/blueswen/mkdocs-glightbox#usage）
   - glightbox:  
       zoomable: true
-  - search # 企业版文档使用mkdocs自带搜索。
+  - search: # 企业版文档使用mkdocs自带搜索。
       lang:
 # en.begin      
         - en

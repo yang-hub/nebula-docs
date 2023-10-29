@@ -1,5 +1,5 @@
 mkdocs
-weasyprint==54.3
+weasyprint
 mkdocs-material-extensions
 mike
 mkdocs-material==9.4.6
@@ -13,6 +13,6 @@ qrcode
 mkdocs-exclude
 mkdocs-redirects
 mkdocs-minify-plugin
-Markdown==3.3.7
+Markdown
 pyyaml
 mkdocs-glightbox
