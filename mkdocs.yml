@@ -96,6 +96,7 @@ plugins:
   - glightbox:  
       zoomable: true
   - search: # 企业版文档使用mkdocs自带搜索。
+      enabled: true 
       lang:
 # en.begin      
         - en
