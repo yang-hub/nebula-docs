@@ -6,7 +6,7 @@ site_url: https://docs.yueshu.com.cn/
 docs_dir: docs-2.0-zh 
 copyright: Copyright &copy; 2023 悦数图数据库 - 浙ICP备2020038915号
 # Modify this line in each version upgrade release
-edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/v3.6.0/docs-2.0-zh/'
+edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/master/docs-2.0-zh/'
 # zh.end
 
 # en.begin
@@ -17,7 +17,7 @@ site_url: https://ent-docs.nebula-graph.io/
 docs_dir: docs-2.0-en
 copyright: Copyright &copy; 2023 NebulaGraph - 浙ICP备20010487号
 # Modify this line in each version upgrade release
-edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/v3.6.0/docs-2.0-en/'
+edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/master/docs-2.0-en/'
 # en.end
 
 repo_name: 'vesoft-inc/nebula' 
@@ -97,7 +97,7 @@ plugins:
   # 图片展示插件（https://github.com/blueswen/mkdocs-glightbox#usage）
   - glightbox:  
       zoomable: true
-  - search # 企业版文档目前只能使用mkdocs material 原生搜索。algolia搜索暂不支持。
+  - search # 企业版文档目前只能使用mkdocs material 原生搜索。algolia搜索暂不支持。      
   - macros:
 # en.begin  
       include_dir: docs-2.0-en/reuse/
@@ -319,6 +319,7 @@ nav:
         - Graph 服务: 1.introduction/3.nebula-graph-architecture/3.graph-service.md
         - Storage 服务: 1.introduction/3.nebula-graph-architecture/4.storage-service.md
   - 悦数 License: 
+
     - License 使用指南: 9.about-license/1.license-overview.md
   #  - License 管理套件: 
   #   - 套件概述: 9.about-license/2.license-management-suite/1.suite-overview.md
@@ -327,18 +328,19 @@ nav:
   #  - 获取和加载 License: 9.about-license/4.generate-and-load-license-key.md
     - License 管理服务 LM: 9.about-license/2.license-management-suite/3.license-manager.md
   #  - 管理 License: 9.about-license/5.manage-license.md
+
   - 快速入门:
-    - 从云开始: 
-      - 步骤 1：创建云服务实例: 2.quick-start/2.quick-start-on-cloud/1.create-instance-on-cloud.md
-      - 步骤 2：连接悦数图数据库: 2.quick-start/2.quick-start-on-cloud/2.connect-to-nebulagraph-on-cloud.md
-      - 步骤 3：管理数据: 2.quick-start/2.quick-start-on-cloud/3.how-to-query-on-cloud.md
-    - 本地部署: 
-      - 步骤 1：安装悦数图数据库: 2.quick-start/3.quick-start-on-premise/2.install-nebula-graph.md
-      - 步骤 2：启动悦数图数据库: 2.quick-start/3.quick-start-on-premise/5.start-stop-service.md
-      - 步骤 3：连接悦数图数据库: 2.quick-start/3.quick-start-on-premise/3.connect-to-nebula-graph.md
-      - 步骤 4：注册 Storage 服务: 2.quick-start/3.quick-start-on-premise/3.1add-storage-hosts.md
-      - 步骤 5：使用基本 nGQL 命令: 2.quick-start/3.quick-start-on-premise/4.nebula-graph-crud.md
-    - nGQL 命令汇总: 2.quick-start/6.cheatsheet-for-ngql-command.md
+      - 从云开始: 
+        - 步骤 1：创建云服务实例: 2.quick-start/2.quick-start-on-cloud/1.create-instance-on-cloud.md
+        - 步骤 2：连接悦数图数据库: 2.quick-start/2.quick-start-on-cloud/2.connect-to-nebulagraph-on-cloud.md
+        - 步骤 3：管理数据: 2.quick-start/2.quick-start-on-cloud/3.how-to-query-on-cloud.md
+      - 本地部署: 
+        - 步骤 1：安装悦数图数据库: 2.quick-start/3.quick-start-on-premise/2.install-nebula-graph.md
+        - 步骤 2：启动悦数图数据库: 2.quick-start/3.quick-start-on-premise/5.start-stop-service.md
+        - 步骤 3：连接悦数图数据库: 2.quick-start/3.quick-start-on-premise/3.connect-to-nebula-graph.md
+        - 步骤 4：注册 Storage 服务: 2.quick-start/3.quick-start-on-premise/3.1add-storage-hosts.md
+        - 步骤 5：使用基本 nGQL 命令: 2.quick-start/3.quick-start-on-premise/4.nebula-graph-crud.md
+      - nGQL 命令汇总: 2.quick-start/6.cheatsheet-for-ngql-command.md
 
   - nGQL 指南:
       - nGQL 概述:
@@ -595,12 +597,12 @@ nav:
 
 #  - NebulaGraph Cloud: nebula-cloud.md
   - 悦数图数据库（公有云）:
-    - 什么是悦数图数据库（公有云）: nebula-cloud/1.what-is-cloud.md
-    - 悦数图数据库（阿里云版）:
-      - 创建服务实例: nebula-cloud/nebula-cloud-on-alibabacloud/1.create-service-instance.md
-      - 使用服务实例: nebula-cloud/nebula-cloud-on-alibabacloud/2.use-cloud-services.md
-      - 扩缩容服务: nebula-cloud/nebula-cloud-on-alibabacloud/4.scaling-services.md
-      - 删除服务实例: nebula-cloud/nebula-cloud-on-alibabacloud/3.delete-service-instance.md
+      - 什么是悦数图数据库（公有云）: nebula-cloud/1.what-is-cloud.md
+      - 悦数图数据库（阿里云版）:
+        - 创建服务实例: nebula-cloud/nebula-cloud-on-alibabacloud/1.create-service-instance.md
+        - 使用服务实例: nebula-cloud/nebula-cloud-on-alibabacloud/2.use-cloud-services.md
+        - 扩缩容服务: nebula-cloud/nebula-cloud-on-alibabacloud/4.scaling-services.md
+        - 删除服务实例: nebula-cloud/nebula-cloud-on-alibabacloud/3.delete-service-instance.md
 #    - NebulaGraph Cloud Azure版:
 #      - 创建订阅: nebula-cloud/nebula-cloud-on-azure/2.how-to-create-subsciption.md
 #      - 配置Solution: nebula-cloud/nebula-cloud-on-azure/3.how-to-set-solution.md
@@ -656,48 +658,48 @@ nav:
 #      - 常见问题 FAQ: nebula-dashboard-ent/8.faq.md
 
   - 图探索:
-    - 什么是悦数图探索: nebula-explorer/about-explorer/ex-ug-what-is-explorer.md
-    - 安装与登录:
-      - 部署悦数图探索: nebula-explorer/deploy-connect/ex-ug-deploy.md
-      - 连接数据库: nebula-explorer/deploy-connect/ex-ug-connect.md
-    - 页面概览: nebula-explorer/ex-ug-page-overview.md
-    - 数据库管理:
-      - Schema 草图: nebula-explorer/db-management/draft.md
-      - Schema 管理: nebula-explorer/db-management/10.create-schema.md
-      - 数据导入: nebula-explorer/db-management/11.import-data.md
-      - 控制台: nebula-explorer/db-management/explorer-console.md
-      - 查询语句模板: nebula-explorer/db-management/ngql-template.md
-      - 数据库用户管理: nebula-explorer/db-management/dbuser_management.md
-    - 图探索:
-      - 选择图空间: nebula-explorer/graph-explorer/13.choose-graphspace.md
-      - 开始探索: nebula-explorer/graph-explorer/ex-ug-query-exploration.md
-      - 节点筛选: nebula-explorer/graph-explorer/node-filtering.md
-      - 探索拓展: nebula-explorer/graph-explorer/ex-ug-graph-exploration.md
-      - 图计算: nebula-explorer/graph-explorer/graph-algorithm.md
-      - 属性计算: nebula-explorer/graph-explorer/property-calculation.md
-    - 可视化查询: nebula-explorer/12.query-visually.md
-    - 画布功能: 
-      - 画布概览: nebula-explorer/canvas-operations/canvas-overview.md
-      - 可视化模式: nebula-explorer/canvas-operations/visualization-mode.md
-      - 画布快照: nebula-explorer/canvas-operations/canvas-snapshot.md
-    - 工作流:
-      - 工作流简介: nebula-explorer/workflow/workflows.md
-      - 资源配置: nebula-explorer/workflow/1.prepare-resources.md
-      - 工作流示例: nebula-explorer/workflow/2.create-workflow.md
-      - 工作流管理: nebula-explorer/workflow/3.workflow-management.md
-      - 作业管理: nebula-explorer/workflow/4.jobs-management.md
-      - 工作流 API:
-        - API 概览: nebula-explorer/workflow/workflow-api/workflow-api-overview.md
-        - 新增作业: nebula-explorer/workflow/workflow-api/api-post-jobs.md
-        - 获取所有作业列表: nebula-explorer/workflow/workflow-api/api-get-jobs.md
-        - 获取指定工作流的作业列表: nebula-explorer/workflow/workflow-api/api-get-workflow-jobs.md
-        - 查询指定作业详情: nebula-explorer/workflow/workflow-api/api-desc-job.md
-        - 取消作业运行: nebula-explorer/workflow/workflow-api/api-cancel-job.md
-        - 获取指定任务的运行结果数据: nebula-explorer/workflow/workflow-api/api-desc-task.md
-    - 内联框架: nebula-explorer/iframe.md
-    - 系统设置: nebula-explorer/system-settings.md
-    - 基本操作和快捷键: nebula-explorer/ex-ug-shortcuts.md
-    - 常见问题 FAQ: nebula-explorer/faq.md
+      - 什么是悦数图探索: nebula-explorer/about-explorer/ex-ug-what-is-explorer.md
+      - 安装与登录:
+        - 部署悦数图探索: nebula-explorer/deploy-connect/ex-ug-deploy.md
+        - 连接数据库: nebula-explorer/deploy-connect/ex-ug-connect.md
+      - 页面概览: nebula-explorer/ex-ug-page-overview.md
+      - 数据库管理:
+        - Schema 草图: nebula-explorer/db-management/draft.md
+        - Schema 管理: nebula-explorer/db-management/10.create-schema.md
+        - 数据导入: nebula-explorer/db-management/11.import-data.md
+        - 控制台: nebula-explorer/db-management/explorer-console.md
+        - 查询语句模板: nebula-explorer/db-management/ngql-template.md
+        - 数据库用户管理: nebula-explorer/db-management/dbuser_management.md
+      - 图探索:
+        - 选择图空间: nebula-explorer/graph-explorer/13.choose-graphspace.md
+        - 开始探索: nebula-explorer/graph-explorer/ex-ug-query-exploration.md
+        - 节点筛选: nebula-explorer/graph-explorer/node-filtering.md
+        - 探索拓展: nebula-explorer/graph-explorer/ex-ug-graph-exploration.md
+        - 图计算: nebula-explorer/graph-explorer/graph-algorithm.md
+        - 属性计算: nebula-explorer/graph-explorer/property-calculation.md
+      - 可视化查询: nebula-explorer/12.query-visually.md
+      - 画布功能: 
+        - 画布概览: nebula-explorer/canvas-operations/canvas-overview.md
+        - 可视化模式: nebula-explorer/canvas-operations/visualization-mode.md
+        - 画布快照: nebula-explorer/canvas-operations/canvas-snapshot.md
+      - 工作流:
+        - 工作流简介: nebula-explorer/workflow/workflows.md
+        - 资源配置: nebula-explorer/workflow/1.prepare-resources.md
+        - 工作流示例: nebula-explorer/workflow/2.create-workflow.md
+        - 工作流管理: nebula-explorer/workflow/3.workflow-management.md
+        - 作业管理: nebula-explorer/workflow/4.jobs-management.md
+        - 工作流 API:
+          - API 概览: nebula-explorer/workflow/workflow-api/workflow-api-overview.md
+          - 新增作业: nebula-explorer/workflow/workflow-api/api-post-jobs.md
+          - 获取所有作业列表: nebula-explorer/workflow/workflow-api/api-get-jobs.md
+          - 获取指定工作流的作业列表: nebula-explorer/workflow/workflow-api/api-get-workflow-jobs.md
+          - 查询指定作业详情: nebula-explorer/workflow/workflow-api/api-desc-job.md
+          - 取消作业运行: nebula-explorer/workflow/workflow-api/api-cancel-job.md
+          - 获取指定任务的运行结果数据: nebula-explorer/workflow/workflow-api/api-desc-task.md
+      - 内联框架: nebula-explorer/iframe.md
+      - 系统设置: nebula-explorer/system-settings.md
+      - 基本操作和快捷键: nebula-explorer/ex-ug-shortcuts.md
+      - 常见问题 FAQ: nebula-explorer/faq.md
 
   - 图计算:
 
