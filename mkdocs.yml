@@ -6,7 +6,7 @@ site_url: https://docs.yueshu.com.cn/
 docs_dir: docs-2.0-zh 
 copyright: Copyright &copy; 2023 悦数图数据库 - 浙ICP备2020038915号
 # Modify this line in each version upgrade release
-edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/master/docs-2.0-zh/'
+edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/v3.6.0/docs-2.0-zh/'
 # zh.end
 
 # en.begin
@@ -17,7 +17,7 @@ site_url: https://ent-docs.nebula-graph.io/
 docs_dir: docs-2.0-en
 copyright: Copyright &copy; 2023 NebulaGraph - 浙ICP备20010487号
 # Modify this line in each version upgrade release
-edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/master/docs-2.0-en/'
+edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/v3.6.0/docs-2.0-en/'
 # en.end
 
 repo_name: 'vesoft-inc/nebula' 
