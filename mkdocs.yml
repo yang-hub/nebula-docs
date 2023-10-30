@@ -152,8 +152,8 @@ plugins:
 # en.end
 # zh.begin
       cover_logo: 'https://docs-cdn.nebula-graph.com.cn/figures/yueshu_favicon_230515.png'
-      #pdf_stylesheets:
-      #  - stylesheets/pdf.css
+      pdf_stylesheets:
+        - stylesheets/pdf.css
       output_path: pdf/yueshu-cn.pdf  
 # zh.end
 
