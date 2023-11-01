@@ -5,7 +5,7 @@
 - 功能
 
   - 支持 [Zone 功能](../../nebula-dashboard-ent/3.create-import-dashboard/1.create-cluster.md)的集群。
-  - 支持基于[图空间容量]配置告警规则(../../nebula-dashboard-ent/4.cluster-operator/9.notification.md)。
+  - 支持基于[图空间容量](../../nebula-dashboard-ent/4.cluster-operator/9.notification.md)配置告警规则。
   - 支持管理[内核账号权限](../../nebula-dashboard-ent/4.cluster-operator/10.database-user.md)。
   - 单点登录方式支持 [CAS](../../nebula-dashboard-ent/system-settings/single-sign-on.md)。
 
