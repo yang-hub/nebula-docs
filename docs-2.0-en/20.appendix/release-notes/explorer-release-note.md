@@ -1,6 +1,6 @@
 # NebulaGraph Explorer release notes
 
-## v3.6.0
+## v3.6.0 (2023.10)
 
 - Features
   - Supported [CAS](../../nebula-explorer/deploy-connect/ex-ug-deploy.md) for login authentication.

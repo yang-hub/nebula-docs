@@ -1,6 +1,6 @@
 # {{nebula.name}} release notes
 
-## v3.6.0
+## v3.6.0（2023.10）
 
 - 功能
   - 支持管理 [Zone](../../4.deployment-and-installation/5.zone.md)。Zone 是{{nebula.name}}中存储（Storage）节点的逻辑机架，它将多个 Storage 节点划分成可管理的逻辑区域，实现资源隔离。

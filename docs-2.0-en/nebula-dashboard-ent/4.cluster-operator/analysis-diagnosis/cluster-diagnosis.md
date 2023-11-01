@@ -48,8 +48,9 @@ In the diagnostic report list, you can view the diagnostic reports by clicking *
 A diagnostic report contains the following information:
 
 - Basic Info
-  - Displays information that needs to be focused on, such as emergency alarms, warning alarms, tips, etc.
+  - Display information that needs to be focused on, such as emergency alarms, warning alarms, tips, etc.
   - Display cluster health score, maximum average CPU usage, maximum average memory usage, etc.
+  - Display zone information. The information is displayed when the zone feature is used.
 - Node Info
   - Display the Host, instances, architecture, and system of each node.
   - Display CPU, memory, disk, and network traffic of each node.

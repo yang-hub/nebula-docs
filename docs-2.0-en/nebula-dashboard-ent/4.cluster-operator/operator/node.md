@@ -2,6 +2,10 @@
 
 On this page, the information of all nodes will be shown, including the cluster name, Host(SSH_User), CPU (Core), etc. Users can add nodes, view node monitoring, and manage services on the node.
 
+## Precautions
+
+If the zone feature is enabled, you must select the zone to which the node belongs when you add a node. After adding a node, you cannot modify the zone to which the node belongs. You can only add the node again after removing it by scaling down.
+
 ## Entry
 
 1. At the top navigation bar of the Dashboard Enterprise Edition page, click **Cluster Management**.
@@ -10,7 +14,7 @@ On this page, the information of all nodes will be shown, including the cluster 
 
 ## Add node
 
-Click **Add Node** and enter the following information, the Host, SSH port, SSH user, authentication type, NebulaGraph package, etc., and click **OK**.
+Click **Add Node** and enter the following information: the Host, SSH port, Zone, SSH user, authentication type, NebulaGraph package, etc., and click **OK**.
 
 The authentication type is described as follows:
 

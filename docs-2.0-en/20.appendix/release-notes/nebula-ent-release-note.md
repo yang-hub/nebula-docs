@@ -1,6 +1,6 @@
 # NebulaGraph release notes
 
-## v3.6.0
+## v3.6.0 (2023.10)
 
 - Features
   - Added support for [zone](../../4.deployment-and-installation/5.zone.md). The zone is a logical rack of storage nodes in NebulaGraph that separates multiple Storage nodes into manageable logical zones for resource isolation.

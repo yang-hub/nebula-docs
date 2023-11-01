@@ -1,6 +1,6 @@
 # {{explorer.name}}版本更新说明
 
-## v3.6.0
+## v3.6.0（2023.10）
 
 - 功能
   - 登录认证新增支持 [CAS](../../nebula-explorer/deploy-connect/ex-ug-deploy.md)。

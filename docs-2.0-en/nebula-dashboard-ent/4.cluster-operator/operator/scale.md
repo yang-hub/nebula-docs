@@ -41,6 +41,8 @@ Download and fill in the CSV template file, then upload the file and select the 
 
     - Before removing the storage service, you must migrate the data stored on the node. You need to perform the `Balance Data Remove` operation on the [Overview Info](../cluster-information/overview-info.md) page.
 
+    - When the zone feature is turned on, all services on a node can belong to only one zone.
+
 In this example, storage services with nodes `192.168.8.143` and `192.168.8.167` are added, and Graph services with node `192.168.8.169` are deleted. If the box is dotted and the service name is greyed, it means the service is removed. If the box is solid, it means the service is newly added.
 
 ![scaling](https://docs-cdn.nebula-graph.com.cn/figures/scaling-ds-2022_4-14_en.png)
