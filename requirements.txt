@@ -1,7 +1,7 @@
 mkdocs
 weasyprint
 mkdocs-material-extensions
-mike
+mike==1.1.2
 mkdocs-material==9.4.6
 mkdocs-material-extensions
 mkdocs-macros-plugin
