@@ -27,7 +27,7 @@ Make sure that there are vertices on the canvas. For more information, see [Star
 
 2. Select the vertex you want to expand, either by holding down the right mouse to select or by holding down the `Shift` key and clicking on multiple vertexes on the canvas, and then click the `Expand` button in the **Expand** panel. For a single vertex, you can double-click the left mouse on the vertex to expand.
 
-!!! Note
+!!! note
 
     The system saves the current configurations on the panel. When you double-click or right-click on a vertex for exploration, the exploration will be performed based on the saved configurations.
 

@@ -38,24 +38,16 @@ This manual has over 80 compatibilities and corresponding tips.
 
 !!! caution
 
-    Cautions that need strict observation. If not, systematic breakdown, data loss, and security issues may happen.
+    May have adverse effects, such as causing performance degradation or triggering known minor problems.
+
+!!! warning
+
+    May lead to serious issues, such as data loss or system crash.
 
 !!! danger
 
-    Operations that may cause danger. If not observed, systematic breakdown, data loss, and security issues will happen.
-
-!!! performance
-
-    Operations that merit attention as for performance enhancement.
-
-!!! faq
-
-    Frequently asked questions.
+    May lead to extremely serious issues, such as system damage or information leakage.
 
 !!! compatibility
 
     The compatibility notes between nGQL and openCypher, or between the current version of nGQL and its prior ones. 
-
-## Modify errors
- 
-This NebulaGraph manual is written in the Markdown language. Users can click the pencil sign on the upper right side of each document title and modify errors.

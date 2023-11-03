@@ -151,7 +151,7 @@ Users can perform incremental backup based on existing backup files. Incremental
 
 You can restore the backed-up data stored in the cloud storage service to the original cluster.
 
-!!! caution
+!!! warning
 
     - Before restoring the data, please make sure that the name and storage path of the backup file stored in the cloud storage service are not changed, otherwise, the data restoration will fail.
     - During the data restoration process, all data in the cluster is removed and replaced with the data in the backup file.

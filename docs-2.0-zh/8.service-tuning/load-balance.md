@@ -58,7 +58,7 @@
 
 4. 等待所有子任务完成，负载均衡进程结束，执行命令`SHOW HOSTS`确认分片已经均衡分布。
 
-  !!! Note
+  !!! note
 
         `SUBMIT JOB BALANCE DATA`不会均衡 leader 的分布。均衡 leader 请参见[均衡 leader 分布](#leader)。
 

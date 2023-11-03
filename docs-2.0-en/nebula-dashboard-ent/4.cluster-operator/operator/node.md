@@ -14,7 +14,7 @@ If the zone feature is enabled, you must select the zone to which the node belon
 
 ## Add node
 
-Click **Add Node** and enter the following information: the Host, SSH port, Zone, SSH user, authentication type, NebulaGraph package, etc., and click **OK**.
+Click **Add Node** and enter the following information: the Host, SSH port, zone, SSH user, authentication type, NebulaGraph package, etc., and click **OK**.
 
 The authentication type is described as follows:
 

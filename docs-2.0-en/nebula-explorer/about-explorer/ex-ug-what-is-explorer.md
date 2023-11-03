@@ -36,7 +36,7 @@ When NebulaGraph enables authentication, users can only sign into Studio with th
 
 ## Version compatibility
 
-!!! Note
+!!! note
 
     Explorer is released separately, not synchronized with NebulaGraph. And the version naming of Explorer is different from that of NebulaGraph. The version correspondence between NebulaGraph and Explorer is as follows.
 

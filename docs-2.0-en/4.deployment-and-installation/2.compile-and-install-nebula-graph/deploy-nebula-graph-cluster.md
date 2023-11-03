@@ -260,11 +260,11 @@ Users can refer to the content of the following configurations, which only show 
     --port=9779
     ```
 
-### (Optional) Configure Zones
+### (Optional) Configure zones
 
-A Zone is a logical rack for Storage nodes. You can set up Zones and add specified Storage nodes into these Zones. By configuring the Graph service to directionally access a given Zone, resource isolation and directed data access can be achieved, thereby reducing traffic consumption and cutting costs.
+A zone is a logical rack for Storage nodes. You can set up zones and add specified Storage nodes into these zones. By configuring the Graph service to directionally access a given zone, resource isolation and directed data access can be achieved, thereby reducing traffic consumption and cutting costs.
 
-For details, see [Manage Zones](../../4.deployment-and-installation/5.zone.md).
+For details, see [Manage zones](../../4.deployment-and-installation/5.zone.md).
 
 ### Start the cluster
 

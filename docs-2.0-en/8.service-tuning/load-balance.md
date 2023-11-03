@@ -13,7 +13,7 @@ The `SUBMIT JOB BALANCE DATA` command starts a job to balance the distribution o
 !!! note
 
     - If the current graph space already has a `SUBMIT JOB BALANCE DATA` job in the `FAILED` status, you can restore the `FAILED` job, but cannot start a new `SUBMIT JOB BALANCE DATA` job. If the job continues to fail, manually stop it, and then you can start a new one.
-    - The following example introduces the methods of balanced partition distribution for storage nodes with the Zone feature disabled. When the Zone feature is enabled, balanced partition distribution is performed across zones by specifying the `IN ZONE` clause. For details, see [Manage Zones](../4.deployment-and-installation/5.zone.md).
+    - The following example introduces the methods of balanced partition distribution for storage nodes with the zone feature disabled. When the zone feature is enabled, balanced partition distribution is performed across zones by specifying the `IN ZONE` clause. For details, see [Manage zones](../4.deployment-and-installation/5.zone.md).
 
 ### Examples
 
@@ -57,7 +57,7 @@ After you add new storage hosts into the cluster, no partition is deployed on th
 
 4. When all the subtasks succeed, the load balancing process finishes. Run `SHOW HOSTS` again to make sure the partition distribution is balanced.
 
-  !!! Note
+  !!! note
 
         `SUBMIT JOB BALANCE DATA` does not balance the leader distribution. For more information, see [Balance leader distribution](#balance_leader_distribution).
 
@@ -99,7 +99,7 @@ To restore a balance job in the `FAILED` or `STOPPED` status, run `RECOVER JOB <
 
 To migrate specified partitions and scale in the cluster, you can run `SUBMIT JOB BALANCE DATA REMOVE <ip:port> [,<ip>:<port> ...]`.
 
-To migrate specified partitions for Zone-enabled clusters, you need to add the `IN ZONE` clause. For example, `SUBMIT JOB BALANCE DATA IN ZONE REMOVE <ip:port> [,<ip>:<port> ...]`. For details, see [Manage Zones](../4.deployment-and-installation/5.zone.md).
+To migrate specified partitions for zone-enabled clusters, you need to add the `IN ZONE` clause. For example, `SUBMIT JOB BALANCE DATA IN ZONE REMOVE <ip:port> [,<ip>:<port> ...]`. For details, see [Manage zones](../4.deployment-and-installation/5.zone.md).
 
 For example, to migrate the partitions in server `192.168.8.100:9779`, the command as following:
 
