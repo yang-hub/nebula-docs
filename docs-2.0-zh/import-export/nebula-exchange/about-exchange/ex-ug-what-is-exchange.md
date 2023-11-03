@@ -117,14 +117,9 @@ Exchange {{exchange.release}} 支持将以下格式或来源的数据转换为{{
 
 此外，企业版 Exchange 支持以{{nebula.name}}为源，将数据[导出到 CSV 文件或另一个图空间](../use-exchange/ex-ug-export-from-nebula.md)。
 
- 
-
 
 ## 更新说明
 
 [Release](https://github.com/vesoft-inc/nebula-exchange/releases/tag/{{exchange.tag}})
 
-## 视频
 
-* [{{nebula.name}}数据导入工具——Exchange](https://www.bilibili.com/video/BV1Pq4y177D9)（3 分 08 秒）
-<iframe src="//player.bilibili.com/player.html?aid=546003709&bvid=BV1Pq4y177D9&cid=352387808&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720px" height="480px"> </iframe>

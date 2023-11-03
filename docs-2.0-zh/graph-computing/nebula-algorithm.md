@@ -270,7 +270,3 @@ NebulaGraph Algorithm 实现图计算的流程如下：
   ${SPARK_HOME}/bin/spark-submit --master "local" --class com.vesoft.nebula.algorithm.Main /root/nebula-algorithm/target/nebula-algorithm-3.0-SNAPSHOT.jar -p /root/nebula-algorithm/src/main/resources/application.conf
   ```
 
-## 视频
-
-* [图计算工具——NebulaGraph Algorithm 介绍](https://www.bilibili.com/video/BV1fB4y1T7XK)（2 分 36 秒）
-<iframe src="//player.bilibili.com/player.html?aid=588577467&bvid=BV1fB4y1T7XK&cid=351282857&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720px" height="480px"> </iframe>

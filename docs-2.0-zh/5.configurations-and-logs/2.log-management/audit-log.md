@@ -204,7 +204,3 @@
   -rw-r--r-- 1 root root 571 10月 12 11:17 audit.log-202310121697080677 # 新生成的日志文件。
   ```
 
-## 视频
-
-* [{{nebula.name}}的审计日志](https://www.bilibili.com/video/BV17F41157JB)（3 分 53 秒）
-<iframe src="//player.bilibili.com/player.html?aid=299493340&bvid=BV17F41157JB&cid=731096973&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720px" height="480px"> </iframe>

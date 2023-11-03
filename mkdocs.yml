@@ -5,8 +5,6 @@ site_name: 悦数图数据库手册
 site_url: https://docs.yueshu.com.cn/ 
 docs_dir: docs-2.0-zh 
 copyright: Copyright &copy; 2023 悦数图数据库 - 浙ICP备2020038915号
-# Modify this line in each version upgrade release
-edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/v3.6.0/docs-2.0-zh/'
 # zh.end
 
 # en.begin
@@ -16,19 +14,22 @@ site_name: NebulaGraph Database Manual
 site_url: https://ent-docs.nebula-graph.io/ 
 docs_dir: docs-2.0-en
 copyright: Copyright &copy; 2023 NebulaGraph - 浙ICP备20010487号
-# Modify this line in each version upgrade release
-edit_uri: 'https://github.com/vesoft-inc/nebula-ent-docs/edit/v3.6.0/docs-2.0-en/'
 # en.end
-
-repo_name: 'vesoft-inc/nebula' 
-repo_url: 'https://github.com/vesoft-inc/nebula' 
 
 
 # Configuration
 theme:
   name: material
   custom_dir: overrides
+  font:
+    code: Source Code Pro
 # zh.begin  
+    text: Note Sans SC
+# zh.end 
+# en.begin
+    text: Noto Sans
+# en.end 
+# zh.begin
   logo: 'https://docs-cdn.nebula-graph.com.cn/figures/yueshu-ent-docs-2023-5-15.png'
   favicon: 'https://docs-cdn.nebula-graph.com.cn/figures/yueshu_favicon_230515.png'
 # zh.end 
@@ -585,7 +586,7 @@ nav:
       - 系统建模: 8.service-tuning/3.system-design.md
       - 执行计划: 8.service-tuning/4.plan.md
       - 超级节点(稠密点): 8.service-tuning/super-node.md
-      - 实践案例: 8.service-tuning/practice.md
+      - 实践案例: https://www.yueshu.com.cn/cases
 
   - 客户端:
     - 客户端介绍: 14.client/1.nebula-client.md
@@ -739,7 +740,6 @@ nav:
         - 悦数图数据库: 20.appendix/release-notes/nebula-ent-release-note.md
         - 悦数运维监控: 20.appendix/release-notes/dashboard-ent-release-note.md
         - 悦数图探索: 20.appendix/release-notes/explorer-release-note.md
-#      - 学习路径: 20.appendix/learning-path.md
       - 产品端口全集: 20.appendix/port-guide.md
       - 生态工具概览: 20.appendix/6.eco-tool-version.md
       - 错误码: 20.appendix/error-code.md
@@ -1026,7 +1026,7 @@ nav:
     - Execution plan: 8.service-tuning/4.plan.md
     - Processing super vertices: 8.service-tuning/super-node.md
 #    - Enable AutoFDO: 8.service-tuning/enable_autofdo_for_nebulagraph.md
-    - Best practices: 8.service-tuning/practice.md
+    - Use cases: https://www.nebula-graph.io/use-cases
 
   - Clients:
     - Clients overview: 14.client/1.nebula-client.md
@@ -1179,7 +1179,6 @@ nav:
         - NebulaGraph Enterprise: 20.appendix/release-notes/nebula-ent-release-note.md
         - NebulaGraph Dashboard Enterprise: 20.appendix/release-notes/dashboard-ent-release-note.md
         - NebulaGraph Explorer: 20.appendix/release-notes/explorer-release-note.md
-#      - Learning path: 20.appendix/learning-path.md
       - Port guide for company products: 20.appendix/port-guide.md
       - Ecosystem tools: 20.appendix/6.eco-tool-version.md
       - Error code: 20.appendix/error-code.md
