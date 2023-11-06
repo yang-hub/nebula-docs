@@ -79,13 +79,13 @@ This topic takes the enterprise edition of NebulaGraph v3.1.0 as an example and 
   !!! note
         Update the binary files for each machine where {{nebula.name}} services are deployed.
 
-<!-- This step can be ignored after version 3.0.0 as the default value for this field was changed in the configuration file after that.
-3. Edit the configuration files for all Graph services, changing the following parameters to match the new version's value range. If the parameter value is already within the specified range, you can skip this step.
+  <!-- This step can be ignored after version 3.0.0 as the default value for this field was changed in the configuration file after that.
+   1. Edit the configuration files for all Graph services, changing the following parameters to match the new version's value range. If the parameter value is already within the specified range, you can skip this step.
    
-  - Set a value for the `session_idle_timeout_secs` parameter within the range of [1, 604800]. The recommended value is 28800.
-  - Set a value for the `client_idle_timeout_secs` parameter within the range of [1, 604800]. The recommended value is 28800.
+     - Set a value for the `session_idle_timeout_secs` parameter within the range of [1, 604800]. The recommended value is 28800.
+     - Set a value for the `client_idle_timeout_secs` parameter within the range of [1, 604800]. The recommended value is 28800.
 
-  The default values of these parameters in version 2.x are not within the value range of the new version. Failure to modify them will result in a failed upgrade. For detailed parameter descriptions, refer to [Graph Service Configuration](../../5.configurations-and-logs/1.configurations/3.graph-config.md). -->
+    The default values of these parameters in version 2.x are not within the value range of the new version. Failure to modify them will result in a failed upgrade. For detailed parameter descriptions, refer to [Graph Service Configuration](../../5.configurations-and-logs/1.configurations/3.graph-config.md). -->
 
 4. In the `nebula-metad.conf` configuration file of NebulaGraph, add the `license_manager_url` parameter and set it to the LM's path.
 
@@ -108,13 +108,13 @@ This topic takes the enterprise edition of NebulaGraph v3.1.0 as an example and 
 
         If there are any exceptions during startup, abandon the upgrade, and contact customer support.
 
-5. Start all Graph and Storage services.
+6. Start all Graph and Storage services.
 
   !!! note
 
         If there are any exceptions during startup, abandon the upgrade, and contact customer support.
 
-6. Connect to the new version of {{nebula.name}} and verify that the service is operational and that the data is intact. For information on connecting to the service, refer to [Connecting to Nebula Graph](../connect-to-nebula-graph.md).
+7. Connect to the new version of {{nebula.name}} and verify that the service is operational and that the data is intact. For information on connecting to the service, refer to [Connecting to Nebula Graph](../connect-to-nebula-graph.md).
 
   Some reference commands to test the upgrade are as follows:
 
