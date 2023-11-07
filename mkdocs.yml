@@ -51,6 +51,7 @@ theme:
     - navigation.top
     - header.autohide
     - content.tabs.link
+    - content.code.copy
 # zh.begin    
   language: 'zh'
 # zh.end  
