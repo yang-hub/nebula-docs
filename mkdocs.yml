@@ -24,7 +24,7 @@ theme:
   font:
     code: Source Code Pro
 # zh.begin  
-    text: Note Sans SC
+    text: Zh Font
 # zh.end 
 # en.begin
     text: Noto Sans
@@ -64,6 +64,7 @@ extra_css:
   - stylesheets/note.css
   - stylesheets/extra.css
   - css/version-select.css
+  - stylesheets/pdf.css
 
 # Extensions
 markdown_extensions:
@@ -154,8 +155,6 @@ plugins:
 # en.end
 # zh.begin
       cover_logo: 'https://docs-cdn.nebula-graph.com.cn/figures/yueshu_favicon_230515.png'
-      pdf_stylesheets:
-        - stylesheets/pdf.css
       output_path: pdf/yueshu-cn.pdf  
 # zh.end
 
