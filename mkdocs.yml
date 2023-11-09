@@ -29,7 +29,7 @@ theme:
   font:
     code: Source Code Pro
 # zh.begin  
-    text: Zh Font
+    text: Noto Sans Simplified Chinese
 # zh.end 
 # en.begin
     text: Noto Sans
