@@ -177,7 +177,7 @@ extra_javascript:
 # modify when release: 
 extra:
   version:
-    method: mike
+    provider: mike
   nebula:
     release: 3.6.0
     nightly: nightly
