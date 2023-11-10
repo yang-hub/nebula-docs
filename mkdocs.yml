@@ -69,7 +69,7 @@ extra_css:
   - stylesheets/logo.css
   - stylesheets/note.css
   - stylesheets/extra.css
-  - css/version-select.css
+#  - css/version-select.css
   - stylesheets/pdf.css
 
 # Extensions
@@ -165,7 +165,7 @@ plugins:
 # zh.end
 
 extra_javascript:
-  - js/version-select.js      
+#  - js/version-select.js      
   - js/config.js
   - js/jquery.js
   - js/init.js
