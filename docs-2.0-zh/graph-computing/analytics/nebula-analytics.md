@@ -1,24 +1,22 @@
-# {{plato.name}}
+# 使用{{plato.name}}
 
-{{plato.name}}是一款高性能图计算框架工具，支持对{{nebula.name}}数据库中的数据执行图分析。
+{{plato.name}}是一款高性能图计算框架工具，支持对{{nebula.name}}数据库中的数据执行图分析。用户还可以基于我们提供的 API 自行开发图算法。
 
 ## 前提条件
 
 - [联系我们](https://yueshu.com.cn/contact)获取{{plato.name}}安装包。
 
-
-
-- 已[加载 License Key](../9.about-license/2.license-management-suite/3.license-manager.md)。
-
-
-- 已部署 2.2.x 或以上版本的 [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/ClusterSetup.html)。
+- 已[在 LM 中加载 License Key](../9.about-license/2.license-management-suite/3.license-manager.md)。
 
 - 已安装 1.8 版本的 JDK。
-
 
 ## 适用场景
 
 支持将数据源为{{nebula.name}}集群、HDFS 上的 CSV 文件或本地 CSV 文件中的数据导入 {{plato.name}}，并将图计算结果输出至{{nebula.name}}集群、HDFS 上的 CSV 文件或本地 CSV 文件。
+
+!!! note
+
+    如果需要导入或导出 HDFS 上的数据，需要部署 2.2.x 或以上版本的 [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/ClusterSetup.html)。
 
 ## 使用限制
 
@@ -30,6 +28,7 @@
 
 |{{nebula.name}}版本|{{plato.name}}版本|
 |:---|:---|
+|3.6.0| 3.6.0 |
 |3.5.0| 3.5.0 |
 |3.4.0 ~ 3.4.1| 3.5.0、3.4.0 |
 |3.3.0      | 3.3.0 |
@@ -39,7 +38,7 @@
 
 ## 支持算法
 
-{{plato.name}}支持的图计算算法如下。
+{{plato.name}}默认支持的图计算算法如下。如果需要创建自定义算法，请参见[自定义算法](customize-algorithm.md)。
 
 |           算法名        |说明             |分类        |
 |:----------------------|:----------------|:-----------|
@@ -130,10 +129,11 @@
   ```
 -->
 
-
 ## 使用方法
 
-安装完成后，用户可以设置不同算法的参数，然后执行脚本，即可获得算法的结果，并导出为指定格式。
+<!--还支持接收console调用的udf，内网confluence查看，不对外。-->
+
+安装完成后，用户可以设置不同算法的参数，然后执行脚本，即可获得算法的结果，并导出为指定格式。执行完成后进程会立即结束。
 
 1. 选择{{plato.name}}集群的任一节点，进入目录`scripts`。
 
@@ -270,7 +270,7 @@
 4. 执行算法脚本。例如：
 
   ```bash
-  ./run_pagerank.sh
+  ./scripts/run_pagerank.sh
   ```
 
 5. 在输出路径查看计算结果。

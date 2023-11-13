@@ -21,7 +21,7 @@
 
 - 需要在 ![setting](https://docs-cdn.nebula-graph.com.cn/figures/navbar-setting-0105.png) 里开启工作流才能显示 Workflow 页面。
 
-- 使用工作流需要额外部署 Dag Controller 和{{plato.name}}。详情参见[{{plato.name}}](../..//graph-computing/nebula-analytics.md)和[部署{{explorer.name}}](../deploy-connect/ex-ug-deploy.md)。
+- 使用工作流需要额外部署 Dag Controller 和{{plato.name}}。详情参见[{{plato.name}}](../..//graph-computing/analytics/nebula-analytics.md)和[部署{{explorer.name}}](../deploy-connect/ex-ug-deploy.md)。
 
 - 图查询组件的输入只能是查询语言。
 

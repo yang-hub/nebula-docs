@@ -1,21 +1,22 @@
-# NebulaGraph Analytics
+# Use Analytics
 
-NebulaGraph Analytics is a high-performance graph computing framework tool that performs graph analysis of data in the NebulaGraph database.
+NebulaGraph Analytics is a high-performance graph computation framework tool that performs graph analysis of data in the NebulaGraph database. Users can also develop their own graph algorithms based on the API we provide.
 
 ## Prerequisites
 
-- The NebulaGraph Analytics installation package has been obtained. [Contact us](https://www.nebula-graph.io/contact) to apply.
+- The NebulaGraph Analytics installation package is obtained. [Contact us](https://www.nebula-graph.io/contact) to apply.
 
-- The [license key](../9.about-license/2.license-management-suite/3.license-manager.md) is loaded.
+- The [license key](../9.about-license/2.license-management-suite/3.license-manager.md) in LM is loaded.
 
-- The [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/ClusterSetup.html) 2.2.x or later has been deployed.
-
-- The JDK 1.8 has been deployed.
+- The JDK 1.8 is deployed.
 
 ## Scenarios
 
 You can import data from data sources as NebulaGraph clusters, CSV files on HDFS, or local CSV files into NebulaGraph Analytics and export the graph computation results to NebulaGraph clusters, CSV files on HDFS, or local CSV files from NebulaGraph Analytics.
 
+!!! note
+
+    If you need to import or export data on HDFS, you need to deploy the [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/ClusterSetup.html) 2.2.x or later.
 
 ## Limitations
 
@@ -27,6 +28,7 @@ The version correspondence between NebulaGraph Analytics and NebulaGraph is as f
 
 |NebulaGraph |NebulaGraph Analytics |
 |:---|:---|
+|3.6.0| 3.6.0 |
 |3.5.0| 3.5.0 |
 |3.4.0 ~ 3.4.1| 3.5.0、3.4.0 |
 |3.3.0      | 3.3.0 |
@@ -36,7 +38,7 @@ The version correspondence between NebulaGraph Analytics and NebulaGraph is as f
 
 ## Graph algorithms
 
-NebulaGraph Analytics supports the following graph algorithms.
+The graph algorithms supported in Analytics by default are listed below. If you need to create a custom algorithm, see [Customize algorithm](customize-algorithm.md).
 
 |           Algorithm        |Description            |Category        |
 |:----------------------|:----------------|:-----------|
@@ -129,7 +131,7 @@ The preparations for compiling NebulaGraph Analytics are similar to compiling Ne
 
 ## How to use NebulaGraph Analytics
 
-After installation, you can set parameters of different algorithms and then execute a script to obtain the results of the algorithms and export them to the specified format.
+After installation, you can set parameters of different algorithms and then execute a script to obtain the results of the algorithms and export them to the specified format. The corresponding process will be terminated once the script execution is complete.
 
 1. Select one node from the NebulaGraph Analytics cluster and then access the `scripts` directory.
 
@@ -266,7 +268,7 @@ After installation, you can set parameters of different algorithms and then exec
 4. Run the algorithm script. For example:
 
   ```bash
-  ./run_pagerank.sh
+  ./scripts/run_pagerank.sh
   ```
 
 5. View the graph computation results in the export path.

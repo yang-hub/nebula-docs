@@ -219,9 +219,9 @@ extra:
     branch: v3.0.0
     tag: v3.0.0
   plato:
-    release: 3.5.0
-    branch: release-3.5
-    tag: v3.5.0
+    release: 3.6.0
+    branch: release-3.6
+    tag: v3.6.0
 # zh.begin
     name: 悦数图计算
 # zh.end
@@ -710,10 +710,15 @@ nav:
 
   - 图计算:
 
-#    - 算法简介: graph-computing/algorithm-description.md
+    - 算法简介: graph-computing/algorithm-description.md
     - NebulaGraph Algorithm: graph-computing/nebula-algorithm.md
-#    - 悦数图计算: graph-computing/nebula-analytics.md
-#    - 悦数图探索工作流: graph-computing/use-explorer.md
+    - 悦数图计算:
+      - 使用悦数图计算: graph-computing/analytics/nebula-analytics.md
+      - 自定义算法: graph-computing/analytics/1.customize-algorithm.md
+      - AppBase 类: graph-computing/analytics/2.appbase-class.md
+      - Graph 类: graph-computing/analytics/3.graph-class.md
+      - Utils: graph-computing/analytics/4.utils-class.md
+    - 悦数图探索工作流: graph-computing/use-explorer.md
 
   - 自动化部署运维:
       - 什么是 NebulaGraph Operator: nebula-operator/1.introduction-to-nebula-operator.md
@@ -1148,10 +1153,15 @@ nav:
 
   - Graph computing:
 
-#    - Algorithm overview: graph-computing/algorithm-description.md
+    - Algorithm overview: graph-computing/algorithm-description.md
     - NebulaGraph Algorithm: graph-computing/nebula-algorithm.md
-#    - NebulaGraph Analytics: graph-computing/nebula-analytics.md
-#    - NebulaGraph Explorer workflow: graph-computing/use-explorer.md
+    - NebulaGraph Analytics:
+      - Use Analytics: graph-computing/analytics/nebula-analytics.md
+      - Customize algorithm: graph-computing/analytics/1.customize-algorithm.md
+      - AppBase class: graph-computing/analytics/2.appbase-class.md
+      - Graph class: graph-computing/analytics/3.graph-class.md
+      - Utils: graph-computing/analytics/4.utils-class.md
+    - NebulaGraph Explorer workflow: graph-computing/use-explorer.md
 
   - NebulaGraph Operator:
       - What is NebulaGraph Operator: nebula-operator/1.introduction-to-nebula-operator.md
