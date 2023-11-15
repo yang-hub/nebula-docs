@@ -6,7 +6,7 @@
 
 - [联系我们](https://yueshu.com.cn/contact)获取{{plato.name}}安装包。
 
-- 已[在 LM 中加载 License Key](../9.about-license/2.license-management-suite/3.license-manager.md)。
+- 已[在 LM 中加载 License Key](../../9.about-license/2.license-management-suite/3.license-manager.md)。
 
 - 已安装 1.8 版本的 JDK。
 
@@ -38,7 +38,7 @@
 
 ## 支持算法
 
-{{plato.name}}默认支持的图计算算法如下。如果需要创建自定义算法，请参见[自定义算法](customize-algorithm.md)。
+{{plato.name}}默认支持的图计算算法如下。如果需要创建自定义算法，请参见[自定义算法](1.customize-algorithm.md)。
 
 |           算法名        |说明             |分类        |
 |:----------------------|:----------------|:-----------|

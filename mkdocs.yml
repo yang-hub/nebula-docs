@@ -745,7 +745,7 @@ nav:
 #          - 使用本地持久化存储: k8s-operator/4.cluster-administration/4.4.storage-management/4.4.1.use-local-pv.md
           - 动态在线扩容存储卷: k8s-operator/4.cluster-administration/4.4.storage-management/4.4.2.pv-expansion.md
           - 回收 PV: k8s-operator/4.cluster-administration/4.4.storage-management/4.4.3.configure-pv-reclaim.md
-        - 管理日志: k8s-operator/4.cluster-administration/4.5.logging.md
+        - 日志管理: k8s-operator/4.cluster-administration/4.5.logging.md
         - 备份与恢复: k8s-operator/4.cluster-administration/4.6.backup-and-restore.md
         - 安全:
           - 开启 TLS 加密: k8s-operator/4.cluster-administration/4.7.security/4.7.1.enable-mtls.md
@@ -757,7 +757,7 @@ nav:
         - 高阶功能:
           - 优化滚动更新中的 Leader 分布: k8s-operator/4.cluster-administration/4.9.advanced/4.9.1.rolling-update-strategy.md
 #          - 重启集群: k8s-operator/4.cluster-administration/4.9.advanced/4.9.2.restart-cluster.md
-      - FAQ: k8s-operator/5.FAQ.md
+      - 常见问题: k8s-operator/5.FAQ.md
 
   - 性能测试: nebula-bench.md
   - 常见问题 FAQ: 20.appendix/0.FAQ.md

@@ -6,7 +6,7 @@ NebulaGraph Analytics is a high-performance graph computation framework tool tha
 
 - The NebulaGraph Analytics installation package is obtained. [Contact us](https://www.nebula-graph.io/contact) to apply.
 
-- The [license key](../9.about-license/2.license-management-suite/3.license-manager.md) in LM is loaded.
+- The [license key](../../9.about-license/2.license-management-suite/3.license-manager.md) in LM is loaded.
 
 - The JDK 1.8 is deployed.
 
@@ -38,7 +38,7 @@ The version correspondence between NebulaGraph Analytics and NebulaGraph is as f
 
 ## Graph algorithms
 
-The graph algorithms supported in Analytics by default are listed below. If you need to create a custom algorithm, see [Customize algorithm](customize-algorithm.md).
+The graph algorithms supported in Analytics by default are listed below. If you need to create a custom algorithm, see [Customize algorithm](1.customize-algorithm.md).
 
 |           Algorithm        |Description            |Category        |
 |:----------------------|:----------------|:-----------|
