@@ -762,11 +762,10 @@ nav:
   - 性能测试: nebula-bench.md
   - 常见问题 FAQ: 20.appendix/0.FAQ.md
   - 附录:
-      - Release Note:
+      - 更新说明:
         - 悦数图数据库: 20.appendix/release-notes/nebula-ent-release-note.md
         - 悦数运维监控: 20.appendix/release-notes/dashboard-ent-release-note.md
         - 悦数图探索: 20.appendix/release-notes/explorer-release-note.md
-        - 自动化部署运维: 20.appendix/release-notes/operator-release-note.md
       - 产品端口全集: 20.appendix/port-guide.md
       - 生态工具概览: 20.appendix/6.eco-tool-version.md
       - 错误码: 20.appendix/error-code.md
