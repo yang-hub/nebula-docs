@@ -10,6 +10,10 @@ Exchange 由 Reader、Processor 和 Writer 三部分组成。Reader 读取不同
 
 Exchange 有社区版和企业版两个系列，二者功能不同。社区版在 [GitHub](https://github.com/vesoft-inc/nebula-exchange) 开源开发，企业版属于{{nebula.name}}套餐。详情参见[版本对比](https://yueshu.com.cn/pricing/)。
 
+## 更新说明
+
+[Release](https://github.com/vesoft-inc/nebula-exchange-ent/releases)
+
 ## 适用场景
 
 Exchange 适用于以下场景：
@@ -115,9 +119,5 @@ Exchange {{exchange.release}} 支持将以下格式或来源的数据转换为{{
 
 此外，Exchange 支持以{{nebula.name}}为源，将数据[导出到 CSV 文件或另一个图空间](../use-exchange/ex-ug-export-from-nebula.md)。
 
-
-## 更新说明
-
-[Release](https://github.com/vesoft-inc/nebula-exchange/releases/tag/{{exchange.tag}})
 
 
