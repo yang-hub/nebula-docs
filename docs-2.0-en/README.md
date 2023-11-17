@@ -19,6 +19,7 @@ NebulaGraph is a distributed and scalable graph database. It is the optimal solu
 - [NebulaGraph {{nebula.release}}](20.appendix/release-notes/nebula-ent-release-note.md)
 - [{{dashboard_ent.name}}](20.appendix/release-notes/dashboard-ent-release-note.md)
 - [{{explorer.name}}](20.appendix/release-notes/explorer-release-note.md)
+- [NebulaGraph Exchange](20.appendix/release-notes/exchange-ent-release-note.md)
 
 ## Other Sources
 

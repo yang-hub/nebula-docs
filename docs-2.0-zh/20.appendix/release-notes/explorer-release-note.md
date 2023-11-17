@@ -1,4 +1,4 @@
-# {{explorer.name}}版本更新说明
+# {{explorer.name}}更新说明
 
 ## v3.6.0（2023.10）
 
