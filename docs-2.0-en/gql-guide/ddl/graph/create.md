@@ -17,7 +17,7 @@
 ## Description
 
 
-To create a graph, you must have CREATE privilege in the used schema and READ privilege for the graph type in the <of graph type>.
+To create a graph, you must have CREATE privilege in the used schema and READ privilege for the graph type specified by `of graph type``.
 
 The graph is owned by the user issuing this command.  (Is this redundant?)
 
@@ -50,7 +50,7 @@ graph. The schema of all graph element entities in new graph must follow the
 definitions from the referenced graph type.
 
 ## Error handling
-
+NA
 
 ## Examples
 
