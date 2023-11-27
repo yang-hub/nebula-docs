@@ -14,14 +14,17 @@
 
 <catalog graph parent and name> ::= [ <catalog object parent reference> ] <graph name>
 ```
-## Considerations
-
+## Prerequisites
 
 To create a graph, you must have CREATE privilege in the used schema and READ privilege for the graph type specified by `of graph type`.
 
-Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same IDs, they are NOT regarded as the same entity.
+## Effects
 
-The graph is owned by the user issuing this command.  (Is this redundant?)
+The graph is owned by the user issuing this command.  
+
+
+[Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same IDs, they are NOT regarded as the same entity.]
+
 
 
 ## Parameters
@@ -30,33 +33,28 @@ The graph is owned by the user issuing this command.  (Is this redundant?)
 
 Checks if a graph with the same name already exists. If it does already exist, no exception is thrown and the execution ends.
  
-### `<catalog object parent reference>`
-
-Specifies the parent schema of the graph. If not specified, the graph is created in the default schema.
 
 ### `<graph name>`
 
-Specifies the name of the graph. The name must be xxx. Characters allowed?
+Specifies the name of the graph. The name must be xxx. Characters allowed? -> PDF
 
 ### `<typed>`
 
-Specifies whether the graph is typed. If not specified, xxx?
-Valid values: `::` and `TYPED`. Diff of the two?
+Specifies whether the graph is typed. If not specified, the same effect.
+Valid values: `::` and `TYPED`. The same effect. 
 
 ### `<graph type reference>`
 
 The `<graph type reference>` specifies the graph type referenced by the new
-graph. The schema of all graph element entities in new graph must follow the
-definitions from the referenced graph type.
+graph. The schema of all graph element entities in new graph must conform to the
+definitions from the referenced graph type. For more information about graph type, see [Create graph type](). 
 
-## Error handling
-NA
 
 ## Examples
 
 The following examples use the XXX dataset to demonstrate GQL statements. For more information about the dataset, see [dataset introduction](../../overview/sample-dataset.md).
 
-### Scenario 1: Create a graph based on a graph type in the default schema
+### Create a graph based on a graph type in the default schema
 ```
 nebula> CREATE GRAPH graph_name TYPED graph_type_name
 nebula> CREATE GRAPH IF NOT EXISTS graph_name :: graph_type_name
