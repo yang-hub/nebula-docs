@@ -80,3 +80,12 @@ jobs:
             mkdir -p /var/www/ent-docs/site/pdf/
             cp -f /var/www/ent-docs/${{ env.ACTIONTEST }}/pdf/NebulaGraph_Enterprise.pdf /var/www/ent-docs/site/pdf/NebulaGraph_Enterprise.pdf
       
+      - name: Upload to OSS
+        uses: vesoft-inc/upload-oss@master
+        with:
+          key-id: ${{ secrets.OSS_ID }}
+          key-secret: ${{ secrets.OSS_SECRET }}
+          endpoint: ${{ secrets.OSS_ENDPOINT }}
+          bucket: yueshu-graph
+          asset-path: ${{ env.ACTIONTEST }}/pdf/NebulaGraph_Enterprise.pdf
+          target-path: general/yueshu-doc/${{ env.ACTIONTEST }}
