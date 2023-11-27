@@ -56,8 +56,9 @@ The following examples use the XXX dataset to demonstrate GQL statements. For mo
 
 ### Create a graph based on a graph type in the default schema
 ```
-nebula> CREATE GRAPH graph_name TYPED graph_type_name
-nebula> CREATE GRAPH IF NOT EXISTS graph_name :: graph_type_name
-nebula> CREATE GRAPH IF NOT EXISTS graph_name graph_type_name
+# Use either of the following statements to create a graph.
+CREATE GRAPH graph_name TYPED graph_type_name
+CREATE GRAPH IF NOT EXISTS graph_name :: graph_type_name
+CREATE GRAPH IF NOT EXISTS graph_name graph_type_name
 ```
-
+For more about how to create a graph type, see [Create graph type]().
