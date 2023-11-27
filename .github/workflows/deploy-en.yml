@@ -6,6 +6,12 @@ on:
     secrets:
       ENSITE_PASSWORD:
         required: true
+      OSS_ID:
+        required: true
+      OSS_SECRET:
+        required: true
+      OSS_ENDPOINT:
+        required: true
   push:
     branches:
     # Remember to add v before the following version number unless the version is master.
