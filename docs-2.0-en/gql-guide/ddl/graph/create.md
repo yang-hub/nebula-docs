@@ -14,14 +14,14 @@
 
 <catalog graph parent and name> ::= [ <catalog object parent reference> ] <graph name>
 ```
-## Description
+## Considerations
 
 
 To create a graph, you must have CREATE privilege in the used schema and READ privilege for the graph type specified by `of graph type`.
 
-The graph is owned by the user issuing this command.  (Is this redundant?)
-
 Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same IDs, they are NOT regarded as the same entity.
+
+The graph is owned by the user issuing this command.  (Is this redundant?)
 
 
 ## Parameters
@@ -53,6 +53,8 @@ definitions from the referenced graph type.
 NA
 
 ## Examples
+
+The following examples use the XXX dataset to demonstrate GQL statements. For more information about the dataset, see [dataset introduction](../../overview/sample-dataset.md).
 
 ### Scenario 1: Create a graph based on a graph type in the default schema
 ```
