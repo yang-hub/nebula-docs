@@ -7,24 +7,22 @@
 ```
 <create graph statement> ::=
   CREATE { [ PROPERTY ] GRAPH [ IF NOT EXISTS ] }
-    <catalog graph parent and name> { <of graph type> }
+    <graph name> { <of graph type> }
 
 <of graph type> ::=
    [ <typed> ] <graph type reference>  
 
-<catalog graph parent and name> ::= [ <catalog object parent reference> ] <graph name>
 ```
+
 ## Prerequisites
 
-To create a graph, you must have CREATE privilege in the used schema and READ privilege for the graph type specified by `of graph type`.
+To create a graph, you must have `CREATE` privilege in the used schema and `READ` privilege for the graph type specified by `of graph type`.
 
 ## Effects
 
-The graph is owned by the user issuing this command.  
+The new graph is owned by the user issuing this statement.  
 
-
-[Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same IDs, they are NOT regarded as the same entity.]
-
+All indexes defined in the graph type specified by `of graph type` are automatically created in the new graph.
 
 
 ## Parameters
@@ -40,15 +38,18 @@ Specifies the name of the graph. The name must be xxx. Characters allowed? -> PD
 
 ### `<typed>`
 
-Specifies whether the graph is typed. If not specified, the same effect.
-Valid values: `::` and `TYPED`. The same effect. 
+Specifies whether the graph is typed. Valid values: `::` and `TYPED`. If you do not specify this parameter, or set its value to either of the valid values, the graph is always typed.
 
 ### `<graph type reference>`
 
 The `<graph type reference>` specifies the graph type referenced by the new
-graph. The schema of all graph element entities in new graph must conform to the
-definitions from the referenced graph type. For more information about graph type, see [Create graph type](). 
+graph. 
 
+The types of the graph elements such as nodes and edges in the new graph must be the same as those defined in the referenced graph type. 
+
+ Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same identifiers, they are NOT regarded as the same entity.
+
+For more information about graph type, see [Create graph type]().
 
 ## Examples
 
@@ -57,6 +58,7 @@ The following examples use the XXX dataset to demonstrate GQL statements. For mo
 ### Create a graph based on a graph type in the default schema
 ```
 # Use either of the following statements to create a graph.
+
 CREATE GRAPH graph_name TYPED graph_type_name
 CREATE GRAPH IF NOT EXISTS graph_name :: graph_type_name
 CREATE GRAPH IF NOT EXISTS graph_name graph_type_name

@@ -2,6 +2,11 @@
 
 GQL supports integer types and floating-point types. Integer types can be signed or unsigned, while floating-point types are always signed.
 
+问题：
+- 是否可以是 Null?
+- value range
+- out of range的行为？
+
 ## Signed integer
 
 Signed integer is either non-negative (positive or zero) or negative.
@@ -52,3 +57,7 @@ implmentation-defined的类型，取值范围谁来提供？
 
 Scientific notation is also supported, such as `1e2`, `1.1e2`, `.3e4`, `1.e4`, and `-1234E-10`.
 为啥要提科学记数法？是否还支持？
+
+## See also
+
+For information about numeric functions, see [Numeric functions](../functions-and-expressions/numeric.md).
