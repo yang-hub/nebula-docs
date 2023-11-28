@@ -45,7 +45,7 @@ Specifies whether the graph is typed. Valid values: `::` and `TYPED`. If you do 
 The `<graph type reference>` specifies the graph type referenced by the new
 graph. The types of the graph elements such as nodes and edges in the new graph are the same as those defined in the referenced graph type.
 
- Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same identifiers, they are NOT regarded as the same entity.
+Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same identifiers, they are NOT regarded as the same entity.
 
 For more information about graph type, see [Create graph type]().
 
