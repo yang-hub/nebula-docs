@@ -377,6 +377,7 @@ nav:
   - GQL:
       - Overview:
         - section/index.md
+        - Example dataset: gql-guide/overview/sample-dataset.md
 
       - Data types:
         - section/index.md
