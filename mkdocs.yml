@@ -298,15 +298,19 @@ nav:
 
       - 数据类型:
         - section/index.md
-        - 数值: 
-        - 字符串:
-        - 布尔值:
-        - 时间:
-          - 时间点:
-          - 时间段:
-        - 列表:
-        - 路径:
-        - 记录:    
+        - 对象类型:
+          - 图类型:
+          - 点类型:
+          - 边类型:
+          - 约束表类型:
+        - 值类型:
+          - 数值: 
+          - 字符串:
+          - 布尔值:
+          - 时间:
+          - 列表:
+          - 路径:
+          - 记录:    
 
       - 数据类型转换:
         - section/index.md
@@ -376,15 +380,19 @@ nav:
 
       - Data types:
         - section/index.md
-        - Numeric: 
-        - Character string:
-        - Boolean:
-        - Temporal:
-          - Temporal instant:
-          - Temporal duration:
-        - List:
-        - Path:
-        - Record:    
+        - Object types:
+          - Graph type:
+          - Node type:
+          - Edge type:
+          - Binding table type:
+        - Value types:
+          - Numeric type: 
+          - Character string type:
+          - Boolean type:
+          - Temporal type:
+          - List type:
+          - Path type:
+          - Record type:    
 
       - Type conversion:
         - section/index.md
