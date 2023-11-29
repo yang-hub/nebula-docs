@@ -34,7 +34,7 @@ Checks if a graph with the same name already exists. If it does already exist, n
 
 ### `<graph name>`
 
-Specifies the name of the graph. The name must be xxx. Characters allowed? -> PDF
+Specifies the name of the graph. The name may be enclosed with double quotes (") or back quotes (`). If a name is quoted, it can contain any character. Otherwise, it can contain English letters, Chinese characters, numbers, and underscores (_), and cannot start with a number or contain special characters other than underscore (_). 
 
 ### `<typed>`
 
