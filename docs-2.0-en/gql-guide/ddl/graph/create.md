@@ -14,7 +14,7 @@
 
 ```
 
-## Notes
+## Description
 
 The new graph is owned by the user issuing this statement.  
 
