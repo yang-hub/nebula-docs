@@ -34,7 +34,7 @@ Checks if a graph with the same name already exists. If it does already exist, n
 
 ### `<graph name>`
 
-Specifies the name of the graph. The name may be enclosed with double quotes (") or back quotes (`). If a name is quoted, it can contain any character. Otherwise, it can contain English letters, Chinese characters, numbers, and underscores (_), and cannot start with a number or contain special characters other than underscore (_). 
+Specifies the name of the graph. The `<graph name>` is an identifier. For more information about identifiers, see [Rules for identifiers](../../overview/keywords-identifiers.md#rules-for-naming-identifiers).
 
 ### `<typed>`
 
