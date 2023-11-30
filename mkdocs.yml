@@ -377,6 +377,7 @@ nav:
   - GQL:
       - Overview:
         - section/index.md
+        - Keywords and identifiers: gql-guide/overview/keywords-identifiers.md
         - Example dataset: gql-guide/overview/sample-dataset.md
 
       - Data types:
@@ -427,6 +428,11 @@ nav:
       - Data queries:
         - section/index.md
         - Query statements:
+          - MATCH: 
+          - CALL:
+          - FILTER:
+          - LET:
+          - FOR:
         - Common elements:
           - Clauses: 
         - Predicates:  
@@ -434,8 +440,8 @@ nav:
       - Database administration:
         - section/index.md
         - Tunning
-        - SHOW statements
-        - KILL statements
+        - SHOW statements: gql-guide/data-admin/show.md
+        - KILL statements: gql-guide/data-admin/kill.md
 
       - Indexes:
         - section/index.md
