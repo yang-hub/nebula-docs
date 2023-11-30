@@ -14,15 +14,16 @@
 
 ```
 
-## Prerequisites
-
-To create a graph, you must have `CREATE` privilege in the used schema and `READ` privilege for the graph type specified by `of graph type`.
-
-## Effects
+## Notes
 
 The new graph is owned by the user issuing this statement.  
 
 All indexes defined in the graph type specified by `of graph type` are automatically created in the new graph.
+
+## Prerequisites
+
+To create a graph, you must have `CREATE` privilege in the used schema and `READ` privilege for the graph type specified by `of graph type`.
+
 
 
 ## Parameters
@@ -34,7 +35,7 @@ Checks if a graph with the same name already exists. If it does already exist, n
 
 ### `<graph name>`
 
-Specifies the name of the graph. The `<graph name>` is an identifier. For more information about identifiers, see [Rules for identifiers](../../overview/keywords-identifiers.md#rules-for-naming-identifiers).
+Specifies the name of the graph. The `<graph name>` is an identifier. For more information about identifiers, see [Rules for naming identifiers](../../overview/keywords-identifiers.md#rules-for-naming-identifiers).
 
 ### `<typed>`
 
@@ -46,8 +47,6 @@ The `<graph type reference>` specifies the graph type referenced by the new
 graph. The types of the graph elements such as nodes and edges in the new graph are the same as those defined in the referenced graph type.
 
 Graphs of the same graph type are stored in different physical locations. Even if the graph elements such as nodes or edges in different graphs have the same identifiers, they are NOT regarded as the same entity.
-
-For more information about graph type, see [Create graph type]().
 
 ## Examples
 

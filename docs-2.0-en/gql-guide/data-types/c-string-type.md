@@ -1,6 +1,6 @@
 # String
 
-The string type is declared with the `String` keyword and can contain a maximum of xxx characters in length.
+The string type is declared with the `STRING` keyword and can contain a maximum of xxx characters in length.
 
 To QA?
 

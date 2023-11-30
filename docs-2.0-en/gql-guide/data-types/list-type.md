@@ -1,7 +1,7 @@
 # List type
 
 
-The list type is a composite type and declared with the `List` keyword. A list is an ordered collection of elements that can be accessed by their positions.
+The list type is a composite type and declared with the `LIST` or `ARRAY` keyword. A list is an ordered collection of elements that can be accessed by their positions.
 
 
 ## See also
