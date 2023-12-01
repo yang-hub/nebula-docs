@@ -124,7 +124,7 @@
 
 ### `<arc type filler>`
 
-```BNF
+```
 <arc type filler> ::=
     <edge type name> <edge type filler>
 
@@ -153,7 +153,7 @@ To create a graph type, you must have `CREATE` privilege in the used schema.
 
 ### `<graph type name>`
 
-The name of graph type to be created.
+The name of the graph type to be created.
 
 ### `<node type name>`
 
@@ -161,35 +161,35 @@ The name of a node type in the graph type to be created.
 
 ### `<edge type name>`
 
-The name of a edge type in the graph type to be created.
+The name of an edge type in the graph type to be created.
 
 ### `<primary key name>`
 
-The primary key property name, which must exist in property name list, see `<node type property type set definition>` for details.
+The name of the property that functions as the primary key. The property must be defined in `<node type property type set definition>`.
 
-### <label name>
+### `<label name>`
 
-Single label name of the node type or edge type in the graph type. If a node type or edge type has more than one label, please refer to `<label set specification>`.
+The name of a single label of the node type or edge type in the graph type. To define multiple labels, refer to `<label set specification>`.
 
-### <label set specification>
+### `<label set specification>` 
 
-Multiple label names of the node type or edge type in the graph type, seprated by `&`. For example, `Label1 & Label2`.
+The names of multiple labels of the node type or edge type in the graph type. Multiple names are separated with ampersand (`&`). For example, `Label1&Label2`.
 
-### <property name>
+### `<property name>` 
 
-The name of a property in node type or edge type.
+The name of a property of a node type or edge type in the graph type.
 
-### <property value type>
+### `<property value type>`
 
-The type of a property in node type or edge type, e.g. BOOL, INT, STRING etc. For details property value type, please refer to DataType doc.
+The value type of a property of a node type or edge type in the graph type. For details, refer to DataType doc.
 
-### <source node type name>
+### `<source node type name>` 
 
-The type name of the source node in edge type, which must exist in the node type list.
+The name of the source node type of the edge type. The source node type must be one of the node types defined in the graph type.
 
-### <destination node type name>
+### `<destination node type name>` 
 
-The type name of the destination node in edge type, which must exist in the node type list.
+The name of the destination node type of the edge type. The destination node type must be one of the node types defined in the graph type.
 
 ## Examples
 
