@@ -13,8 +13,8 @@
    [ <typed> ] <graph type reference>  
 
 ```
-```antlr4
 
+```antlr4
 createGraphStatement
    : CREATE (PROPERTY? GRAPH (IF NOT EXISTS)? ) graphName (ofGraphType) 
    ;
