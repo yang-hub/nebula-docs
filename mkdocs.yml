@@ -378,7 +378,7 @@ nav:
       - Overview:
         - section/index.md
         - Keywords and identifiers: gql-guide/overview/keywords-identifiers.md
-        - Example dataset: gql-guide/overview/sample-dataset.md
+        - Example dataset: gql-guide/overview/example-dataset.md
 
       - Data types:
         - section/index.md
