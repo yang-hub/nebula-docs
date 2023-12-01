@@ -173,7 +173,7 @@ The name of a single label of the node type or edge type in the graph type. To d
 
 ### `<label set specification>` 
 
-The names of multiple labels of the node type or edge type in the graph type. Multiple names are separated with ampersand (`&`). For example, `Label1&Label2`.
+The names of multiple labels of the node type or edge type in the graph type. Separate multiple names with ampersand (`&`). For example, `Label1&Label2`.
 
 ### `<property name>` 
 
