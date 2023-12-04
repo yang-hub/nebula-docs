@@ -321,11 +321,6 @@ nav:
 
       - 函数和表达式:
         - section/index.md
-        - 数值函数:
-        - 字符串函数:
-        - 时间函数:
-        - 列表函数:
-        - 路径函数:
       
       - 数据定义（DDL）:
         - section/index.md
@@ -369,19 +364,14 @@ nav:
 
 # en.begin
 nav:
-  - Welcome:
-      - What is xxx: 
-
-  - Getting started:
-
   - GQL:
       - Overview:
-        - section/index.md
+        - gql-guide/overview/index.md
         - Keywords and identifiers: gql-guide/overview/keywords-identifiers.md
         - Example dataset: gql-guide/overview/example-dataset.md
 
       - Data types:
-        - section/index.md
+        - gql-guide/data-types/index.md
         - Object types:
           - Graph type: gql-guide/data-types/graph-type.md
           - Node type: gql-guide/data-types/node-type.md
@@ -396,24 +386,17 @@ nav:
           - Path type: gql-guide/data-types/path-type.md
           - Record type: gql-guide/data-types/record-type.md
 
-      - Type conversion:
-        - section/index.md
-        - toBoolean:
-        - toInteger:
-        - toFloat:
-        - toString:
 
       - Functions and expressions:
-        - section/index.md
-        - Numeric functions:
-        - String:
-        - Datetime:
-        - List functions:
-        - Path functions:
+        - gql-guide/functions-and-expressions/index.md
+        - Math functions: gql-guide/functions-and-expressions/math.md
+        - String functions: gql-guide/functions-and-expressions/string.md
+        - Date and time functions: gql-guide/functions-and-expressions/temporal.md
+        - List functions: gql-guide/functions-and-expressions/list.md
+        - Graph functions: gql-guide/functions-and-expressions/graph.md
       
       - Data defnition:
-        - section/index.md
-        - Schema:
+        - gql-guide/ddl/index.md
         - Graph:
           - CREATE GRAPH: gql-guide/ddl/graph/create.md
           - DROP GRAPH: gql-guide/ddl/graph/drop.md
@@ -422,37 +405,19 @@ nav:
           - DROP GRAPH TYPE: gql-guide/ddl/graph-type/drop.md
 
       - Data manipulation:
-        - section/index.md
-        - Insert:
-        - Set:
-        - Remove:
-        - Delete:
-        - Match + DML
+        - gql-guide/dml/index.md
 
       - Data queries:
-        - section/index.md
-        - Query statements:
-          - MATCH: 
-          - CALL:
-          - FILTER:
-          - LET:
-          - FOR:
-        - Common elements:
-          - Clauses: 
-        - Predicates:  
+        - gql-guide/dql/index.md
 
       - Database administration:
-        - section/index.md
-        - Tunning
+        - gql-guide/data-admin/index.md
         - SHOW statements: gql-guide/data-admin/show.md
         - KILL statements: gql-guide/data-admin/kill.md
 
-      - Indexes:
-        - section/index.md
-        - Primary index:
-        - Normal index:
+      - Indexes
+        - gql-guide/indexes/index.md 
 
-      - Procedures:
 
 
 # nav.pdf.begin
