@@ -139,6 +139,8 @@ extra_javascript:
 extra:
   version:
     provider: mike
+  gql:
+    name: GQL
   nebula:
     release: 3.6.0
     nightly: nightly
@@ -405,6 +407,10 @@ nav:
 
       - Indexes
         - gql-guide/indexes/index.md 
+
+  - Appendixes:
+    - Glossary: appendixes/glossary.md
+  
 
 
 

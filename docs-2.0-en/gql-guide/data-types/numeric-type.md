@@ -1,6 +1,6 @@
 # Numeric types
 
-GQL supports integer types and floating-point types. Integer types can be signed or unsigned, while floating-point types are always signed.
+{{gql.name}} supports integer types and floating-point types. Integer types can be signed or unsigned, while floating-point types are always signed.
 
 问题：
 - value range

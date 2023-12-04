@@ -1,6 +1,6 @@
 # Data types
 
-In GQL grammer, each data type is either a GQL-object type or a value type. A GQL-object type is a data type comprising GQL-objects, and a value type is a data type comprising values.
+In {{gql.name}} grammer, each data type is either a GQL-object type or a value type. A GQL-object type is a data type comprising GQL-objects, and a value type is a data type comprising values.
 
 The following GQL-object types are available:
 
