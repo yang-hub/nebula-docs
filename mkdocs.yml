@@ -55,6 +55,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.top
+    - navigation.indexes
     - header.autohide
     - content.tabs.link
     - content.code.copy
@@ -110,18 +111,18 @@ plugins:
 
 
 
-  - with-pdf:
-      cover_subtitle: v5.0.0      
-      cover: true
-      back_cover: true
-      copyright: Copyright &copy; Yueshu Graph Technology -  All rights reserved.
+#  - with-pdf:
+#      cover_subtitle: v5.0.0      
+#      cover: true
+#      back_cover: true
+#      copyright: Copyright &copy; Yueshu Graph Technology -  All rights reserved.
 # en.begin
-      cover_logo: 'https://cloud-cdn.nebula-graph.com.cn/nebula-for-pdf.png'
-      output_path: pdf/NebulaGraph_Enterprise.pdf
+#      cover_logo: 'https://cloud-cdn.nebula-graph.com.cn/nebula-for-pdf.png'
+#      output_path: pdf/NebulaGraph_Enterprise.pdf
 # en.end
 # zh.begin
-      cover_logo: 'https://docs-cdn.nebula-graph.com.cn/figures/yueshu_favicon_230515.png'
-      output_path: pdf/yueshu-cn.pdf  
+#      cover_logo: 'https://docs-cdn.nebula-graph.com.cn/figures/yueshu_favicon_230515.png'
+#      output_path: pdf/yueshu-cn.pdf  
 # zh.end
 
 extra_javascript:
@@ -344,7 +345,7 @@ nav:
       - 过程:
 
 # nav.pdf.begin
-  - PDF: ./pdf/yueshu-cn.pdf
+# - PDF: ./pdf/yueshu-cn.pdf
 # nav.pdf.end
 
 # zh.end
@@ -408,6 +409,6 @@ nav:
 
 
 # nav.pdf.begin
-  - PDF: ./pdf/NebulaGraph_Enterprise.pdf
+#  - PDF: ./pdf/NebulaGraph_Enterprise.pdf
 # nav.pdf.end
 # en.end
