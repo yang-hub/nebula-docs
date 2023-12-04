@@ -383,18 +383,18 @@ nav:
       - Data types:
         - section/index.md
         - Object types:
-          - Graph type:
-          - Node type:
-          - Edge type:
-          - Binding table type:
+          - Graph type: gql-guide/data-types/graph-type.md
+          - Node type: gql-guide/data-types/node-type.md
+          - Edge type: gql-guide/data-types/edge-type.md
+          - Binding table type: gql-guide/data-types/binding-table-type.md
         - Value types:
-          - Numeric type: 
-          - Character string type:
-          - Boolean type:
-          - Temporal type:
-          - List type:
-          - Path type:
-          - Record type:    
+          - Numeric type: gql-guide/data-types/numeric-type.md
+          - Character string type: gql-guide/data-types/c-string-type.md
+          - Boolean type: gql-guide/data-types/boolean-type.md
+          - Temporal type: gql-guide/data-types/temporal-type.md
+          - List type: gql-guide/data-types/list-type.md
+          - Path type: gql-guide/data-types/path-type.md
+          - Record type: gql-guide/data-types/record-type.md
 
       - Type conversion:
         - section/index.md
@@ -415,7 +415,11 @@ nav:
         - section/index.md
         - Schema:
         - Graph:
+          - CREATE GRAPH: gql-guide/ddl/graph/create.md
+          - DROP GRAPH: gql-guide/ddl/graph/drop.md
         - Graph type:
+          - CREATE GRAPH TYPE: gql-guide/ddl/graph-type/create.md
+          - DROP GRAPH TYPE: gql-guide/ddl/graph-type/drop.md
 
       - Data manipulation:
         - section/index.md

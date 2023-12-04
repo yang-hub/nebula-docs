@@ -1,6 +1,6 @@
 name: Publish English docs via GitHub Pages
 env:
-  ACTIONTEST: 3.6.0
+  ACTIONTEST: 5.0_base
 on:
   workflow_call:
     secrets:
@@ -15,7 +15,7 @@ on:
   push:
     branches:
     # Remember to add v before the following version number unless the version is master.
-      - v3.6.0
+      - 5.0_base
     paths:
       - 'docs-2.0-en/**'
 

@@ -4,7 +4,7 @@
 
 ## Syntax
 
-```BNF
+```
 <create graph statement> ::=
   CREATE { [ PROPERTY ] GRAPH [ IF NOT EXISTS ] }
     <graph name> { <of graph type> }
