@@ -84,13 +84,6 @@ markdown_extensions:
       separator: "_"
   - mdx_truly_sane_lists
   - pymdownx.superfences
-  - pymdownx.snippets:
-# en.begin
-      base_path: docs-2.0-en/reuse/
-# en.end
-# zh.begin
-      base_path: docs-2.0-zh/reuse/
-# zh.end
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.caret
@@ -107,13 +100,7 @@ plugins:
   - glightbox:  
       zoomable: true
   - search # 企业版文档目前只能使用mkdocs material 原生搜索。algolia搜索暂不支持。      
-  - macros:
-# en.begin  
-      include_dir: docs-2.0-en/reuse/
-# en.end
-# zh.begin  
-      include_dir: docs-2.0-zh/reuse/
-# zh.end        
+  - macros       
   - git-revision-date-localized
 # modify when release: 
 #  - exclude:
