@@ -22,7 +22,17 @@ The `show_queries()` procedure returns a table with details about all queries cu
 
 ### `*`
 
-`*` returns all columns in the table.
+`*` returns all columns in the table. The following columns are returned:
+
+- `User`: The user who submitted the query.
+- `Host`: The host from which the query was submitted.
+- `HomeGraph`: The home graph of the query.
+- `SessionId`: The session ID of the query.
+- `QueryId`: The query ID of the query.
+- `Query`: The query text.
+- `StartTime`: The time when the query started executing.
+- `Duration(ms)`: The duration of the query in milliseconds.
+- `Status`: The status of the query. 
 
 ## Query status
 
