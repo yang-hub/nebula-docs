@@ -16,8 +16,13 @@ CALL show_queries() RETURN *
 
 ## Parameters
 
-- The `show_queries()` procedure returns a table with details about all queries currently running on the GQL-server. For more details, see [show_queries()](../../procedures/show-quereis.md).
-- `*` specifies all queries currently running on the GQL-server.
+### `show_queries()`
+
+The `show_queries()` procedure returns a table with details about all queries currently running on the GQL-server. For more details, see [show_queries()](../../procedures/show-quereis.md).
+
+### `*`
+
+`*` specifies all queries currently running on the GQL-server.
 
 ## Query status
 
