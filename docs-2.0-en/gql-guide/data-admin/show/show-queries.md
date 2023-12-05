@@ -22,7 +22,7 @@ The `show_queries()` procedure returns a table with details about all queries cu
 
 ### `*`
 
-`*` specifies all queries currently running on the GQL-server.
+`*` returns all columns in the table.
 
 ## Query status
 
