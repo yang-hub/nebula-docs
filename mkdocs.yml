@@ -358,7 +358,7 @@ nav:
       - Overview:
         - gql-guide/overview/index.md
         - Keywords and identifiers: gql-guide/overview/keywords-identifiers.md
-        - Graph pattern: gql-guide/overview/graph-pattern.md
+        - Graph patterns: gql-guide/overview/graph-patterns.md
         - Example dataset: gql-guide/overview/example-dataset.md
 
       - Data types:
