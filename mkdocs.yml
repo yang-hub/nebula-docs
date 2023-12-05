@@ -413,6 +413,7 @@ nav:
 
       - Procedures:
         - show_queries(): gql-guide/procedures/show-quereis.md
+        - kill_query(): gql-guide/procedures/kill-query.md
 
   - Appendixes:
     - Glossary: appendixes/glossary.md
