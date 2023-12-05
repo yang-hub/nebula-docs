@@ -403,11 +403,16 @@ nav:
 
       - Database administration:
         - gql-guide/data-admin/index.md
-        - SHOW statements: gql-guide/data-admin/show.md
-        - KILL statements: gql-guide/data-admin/kill.md
+        - SHOW:
+          - gql-guide/data-admin/show/index.md
+          - SHOW QUERIES: gql-guide/data-admin/show/show-queries.md
+        - KILL: gql-guide/data-admin/kill.md
 
-      - Indexes
+      - Indexes:
         - gql-guide/indexes/index.md 
+
+      - Procedures:
+        - show_queries(): gql-guide/procedures/show-quereis.md
 
   - Appendixes:
     - Glossary: appendixes/glossary.md
